@@ -1,0 +1,156 @@
+<template>
+  <section class="portfolio text-center pt-16 pb-16">
+      <div class="portfolio-title pt-6">
+          <h1 class="text-h4 font-weight-bold pb-2 text-uppercase">
+            <!-- PORTFOLIO -->  {{ $t('message.portfolio.sectionName') }}
+
+          </h1>
+          <p class="text-grey font-italic">{{ $t('message.portfolio.title') }}</p>
+      </div>
+      <div class="portfolio-content mt-12 ">
+          <v-container>
+              <v-row no-gutters>
+                  <v-col v-for="portfoli in  portfolioList " :key="portfoli.id" cols="12" sm="4"
+                      class="mb-8">
+                      <v-hover v-slot="{ isHovering, props }">
+                      <!-- <v-hover v-slot="{ hover }"> -->
+                          <v-card class="mx-auto" max-width="344" :elevation="hover ? 12 : 2"
+                              v-bind="props">
+                              <!--    :class="{ 'on-hover': hover }" -->
+                              <v-img :src="portfoli.src" height="200px" cover> </v-img>
+
+
+                              <v-card-title class="pt-4 pb-2">
+                                  {{ portfoli . title }}
+                              </v-card-title>
+
+                              <v-card-subtitle class="pb-6">
+                                  {{ portfoli . explain }}
+                              </v-card-subtitle>
+                              <v-expand-transition>
+            <div
+              v-if="isHovering"
+              class="d-flex transition-fast-in-fast-out bg-orange v-card--reveal text-h2"
+              style="height: 100%;"
+            >
+            <v-btn   class="mx-4"
+         color="#000"
+          icon
+          :href="portfoli . href"
+         >
+          <v-icon size="24px" color="#fff" >mdi-github</v-icon>
+<!--  href="https://github.com/majidakhoulani" -->
+        </v-btn>
+            </div>
+          </v-expand-transition>
+                          </v-card>
+                        </v-hover>
+                      <!-- </v-hover> -->
+                  </v-col>
+              </v-row>
+          </v-container>
+      </div>
+  </section>
+</template>
+<script>
+export default{
+  data(){
+    return{
+      portfolioList: [
+      {
+                  id: 1,
+                  src: '../src/assets/images/portfolio/Seo1.jpg',
+                  title: 'SEO Project',
+                  explain: 'Website',
+                  href:'https://majidakhoulani.github.io/seo_project/'
+              },
+              {
+                  id: 2,
+                  src: '../src/assets/images/portfolio/krypto.jpg',
+                  title: 'krypton Project',
+                  explain: ' Website',
+                  href:'https://majidakhoulani.github.io/Krypton-Api-Vue/'
+              },
+              {
+                  id: 3,
+                  src: '../src/assets/images/portfolio/vpn.jpg',
+                  title: 'Bulma Project',
+                  explain: 'Website',
+                  href:'https://majidakhoulani.github.io/fresh_bulma_project/'
+              },
+        {
+                  id: 4,
+                  src: '../src/assets/images/portfolio/1.jpg',
+                  title: 'Threads',
+                  explain: 'Illustration',
+                  href:''
+              },
+              {
+                  id: 5,
+                  src: '../src/assets/images/portfolio/2.jpg',
+                  title: 'Explore',
+                  explain: 'Graphic Design',
+                  href:''
+              },
+              {
+                  id: 6,
+                  src: '../src/assets/images/portfolio/3.jpg',
+                  title: 'Finish',
+                  explain: 'Identity',
+                  href:''
+              },
+              // {
+              //     id: 7,
+              //     src: '../src/assets/images/portfolio/fresh.jpg',
+              //     title: 'Bulma',
+              //     explain: 'Website'
+              // },
+              {
+                  id: 7,
+                  src: ' ../src/assets/images/portfolio/4.jpg',
+                  title: 'Southwest',
+                  explain: 'Website Design'
+
+              },
+              {
+                  id: 8,
+                  src: '../src/assets/images/portfolio/6.jpg',
+                  title: 'Window',
+                  explain: 'Photography'
+              },
+              {
+                  id: 9,
+                  src: '../src/assets/images/portfolio/5.jpg',
+                  title: 'Lines',
+                  explain: 'Branding'
+              },
+
+          ],
+          transparent: 'rgba(255, 255, 255, 0)',
+    }
+  }
+}
+</script>
+<style
+>
+  .portfolio
+ {
+      background-color: #F8F9FA;
+  }
+  /* .portfolio .v-card {
+      transition: opacity .4s ease-in-out;
+  }
+
+  .portfolio .v-card:hover {
+      opacity: 0.6;
+  } */
+  .v-card--reveal {
+    align-items: center;
+    bottom: 0;
+    justify-content: center;
+    opacity: .8;
+    position: absolute;
+    width: 100%;
+    /* background-color: #ffc800; */
+  }
+</style>

@@ -1,0 +1,51 @@
+{
+  "message": {
+    "navbar":{
+      "logo":"فيو تي فاي ",
+      "home":"الصفحة الرئيسية",
+      "about":"حول الموقع",
+      "products":"منتجاتنا",
+      "contact":"اتصل بنا",
+      "login":"تسجيل دخول",
+      "logout":"تسجيل خروج",
+      "admin":"مدير الموقع"
+    },
+    "hero":{
+      "title":"أهلاً وسهلاً بكم يموقعنا",
+      "subtitle": "سعيد برويتكم",
+      "button":"لمزيد من المعلومات"
+  },
+  "service":{
+    "sectionName":"خدماتنا",
+    "title":"نقدم مجموعة متميزة من الخدمات ",
+    "subtitle1": "تصميم متاجر إلكترونية",
+    "subtitle2": "تصاميم متجاوبة ",
+    "subtitle3": "الأمان ",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+},
+"portfolio":{
+  "sectionName":"أعمال سابقة",
+  "title":"نقدم مجموعة متميزة من أعمالنا السابقة "
+},
+"about":{
+  "sectionName":"حول الموقع",
+  "title":"معلومات متميزة عنا "
+},
+"team":{
+  "sectionName":"فريقنا",
+  "title":"لدينا فريق متميز من المبرمجين"
+},
+"testimonials":{
+  "sectionName":"آراء عملائنا",
+  "title":" آراء عملاء متميزين لدينا"
+},
+"features": {
+  "sectionName":"ميزات الموقع",
+  "title":"نقدم مجموعة من الميزات "
+  },
+  "contact": {
+    "sectionName":"اتصل بنا",
+    "title":"معلومات التواصل"
+    }
+  }
+}

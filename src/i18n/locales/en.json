@@ -1,0 +1,51 @@
+{
+  "message": {
+    "navbar":{
+      "logo":"Start Vuetify",
+      "home":"home",
+      "about":"about",
+      "products":"products",
+      "contact":"contact",
+      "login":"login",
+      "logout":"logout",
+      "admin":"admin"
+    },
+    "hero":{
+      "title":"Welcome To Our Studio!",
+      "subtitle": "IT'S NICE TO MEET YOU",
+      "button":"tell me more"
+  },
+  "service":{
+    "sectionName":"service",
+    "title":"Lorem ipsum dolor sit amet consectetur.",
+    "subtitle1": "E-Commerce ",
+    "subtitle2": "Responsive Design",
+    "subtitle3": "Web Security ",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+},
+"portfolio":{
+  "sectionName":"portfolio",
+  "title":"Lorem ipsum dolor sit amet consectetur."
+},
+"about":{
+  "sectionName":"about",
+  "title":"Lorem ipsum dolor sit amet consectetur."
+},
+"team":{
+  "sectionName":"OUR AMAZING TEAM",
+  "title":"Lorem ipsum dolor sit amet consectetur."
+},
+"testimonials":{
+  "sectionName":"TESTIMONIALS",
+  "title":"Lorem ipsum dolor sit amet consectetur."
+},
+  "features": {
+  "sectionName":"features",
+  "title":"Lorem ipsum dolor sit amet consectetur."
+  },
+  "contact": {
+    "sectionName":"contact us",
+    "title":"Lorem ipsum dolor sit amet consectetur."
+    }
+}
+}
