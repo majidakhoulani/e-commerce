@@ -9,6 +9,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+   publicPath: '/e-commerce-vuetify/',
   // base:'/e-commerce-vuetify/',
   plugins: [
     vue({
