@@ -12,7 +12,7 @@
                          {{ $t('message.hero.subtitle') }}
                   </h3>
                   <!-- {{ $t('message.hello') }} -->
-                  <v-btn  color="orange darken-2" elevation="2" class="mt-12 pa-4 h-75" width="224">
+                  <v-btn  color="orange darken-2" elevation="2" class="mt-12 pa-4 h-75 hero-button" width="224">
                       <span class="text-white text-uppercase text-h6">  {{ $t('message.hero.button') }}</span>
                   </v-btn>
               </v-col>
@@ -26,7 +26,6 @@ export default{
   props:{
   title:'Welcome To Our Studio!',
   src:'../src/assets/images/header-bg.jpg'
-  //'@/assets/images/header-bg.jpg'
 },
 }
 </script>
@@ -34,4 +33,15 @@ export default{
   .hero-section .hero-section-content {
       margin-top: 15%;
   }
+  @media screen and (max-width:914px){
+
+.hero-button{
+  margin-bottom:20px
+
+}
+.hero-section h1,h3{
+  font-size: 14px;
+}
+  }
+
   </style>

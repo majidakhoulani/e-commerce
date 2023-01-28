@@ -3,29 +3,21 @@
     <section>
         <v-card class="ma-8 pa-8" color="#F8F9FA">
             <v-container>
+              <v-layout>
                 <v-row>
+                  <!-- <v-col class="d-flex  flex-row "> -->
+                <v-row >
 
-                    <v-col cols="4" align="center">
-                        <div class="d-flex  flex-column ">
-                            <!-- <v-sheet class="ma-2 pa-2"> -->
+                    <v-col cols="4" align="center" >
+                        <!-- <div class="d-flex  flex-column  "> -->
+
                             <v-card class="mx-auto " width="300" height="400" color="rgb(255,235,238,1)">
 
                                 <v-avatar  size="150" rounded="50" class="ma-4">
                                     <v-img cover src="../assets/images/team/2.jpg"></v-img>
                                 </v-avatar>
-                                <!-- <v-list-item class="text-white" :title="userInfo.firstName + '' + userInfo.lastName"
-                                        :subtitle="userInfo.title"></v-list-item>
-                                    <v-list-item class="text-white" :title="userInfo.email"></v-list-item> -->
                                 <v-card-item>
-                                    <!-- <div>
-                                        <div class="text-overline mb-1" :title="userInfo.firstName + '' + userInfo.lastName">
 
-                                        </div>
-                                        <div class="text-h6 mb-1">
-                                            Headline
-                                        </div>
-                                        <div class="text-caption">Greyhound divisely hello coldly fonwderfully</div>
-                                    </div> -->
                                     <v-card-title class="text-h6 text-pink pb-2">
                                         {{ userInfo . firstName + ' ' + userInfo . lastName }}
                                     </v-card-title>
@@ -41,8 +33,7 @@
                                     </v-btn>
                                 </v-card-actions>
                             </v-card>
-                            <!-- </v-sheet> -->
-                            <!-- <v-sheet class="mt-4"> -->
+
                             <v-card class="mx-auto mt-4" width="300" height="300">
                                 <v-list height="300" class="bg-orange-lighten-3">
                                     <v-list-subheader class=" text-red-darken-2 pa-4">Contact Me</v-list-subheader>
@@ -58,13 +49,15 @@
 
                                 </v-list>
                             </v-card>
-                            <!-- </v-sheet> -->
-                        </div>
-                    </v-col>
 
-                    <v-col cols="8" class="pl-8">
-                       <div class="d-flex  flex-column ">
-                            <!-- <v-sheet class="ma-2 pa-2"> -->
+                        <!-- </div> -->
+                    </v-col>
+                    </v-row>
+                    <v-row>
+
+                    <v-col cols="11">
+                        <!-- <div class="d-flex  flex-column"> -->
+
                               <v-card>
                             <v-table>
                                 <thead>
@@ -99,55 +92,30 @@
                                         <td class="text-orange-lighten-2">{{ userInfo . university}}</td>
                                     </tr>
 
-                                    <!-- <tr>
-                                        <td>Full Name</td>
-                                        <td>{{ userInfo . firstName }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Full Name</td>
-                                        <td>{{ userInfo . firstName }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Full Name</td>
-                                        <td>{{ userInfo . firstName }}</td>
-                                    </tr> -->
+
                                 </tbody>
                             </v-table>
                         </v-card>
 
-                            <!-- </v-sheet> -->
-                            <!-- <v-sheet class="mt-4"> -->
-                            <v-card class=" mt-4"  height="410">
+
+                            <v-card class=" mt-4"  height="375">
                               <ApexChartProfile />
                             </v-card>
-                            <!-- </v-sheet> -->
-                        </div>
+
+                        <!-- </div> -->
 
 
 
                     </v-col>
 
                 </v-row>
+              <!-- </v-col> -->
+            </v-row>
+              </v-layout>
             </v-container>
         </v-card>
     </section>
-    <!-- <section class="profile pa-6 mt-6">
-        <v-container>
-            <v-row justify="center">
 
-                <v-card class="mx-auto" width="500px" height="500px" rounded="50px">
-                    <v-img height="100%" cover src="https://cdn.vuetifyjs.com/images/cards/server-room.jpg">
-                        <v-avatar color="grey" size="150" rounded="0">
-                            <v-img cover :src="userInfo.image"></v-img>
-                        </v-avatar>
-                        <v-list-item class="text-white" :title="userInfo.firstName + '' + userInfo.lastName" :subtitle="userInfo.title"></v-list-item>
-                        <v-list-item class="text-white" :title="userInfo.email"></v-list-item>
-                    </v-img>
-                </v-card>
-
-            </v-row>
-        </v-container>
-    </section> -->
 </template>
 <script>
 
@@ -202,10 +170,11 @@ import ApexChartProfile from '@/components/ApexChartProfile.vue';
 </script>
 
 <style>
-    /* .profile{
-  background-image:url('../assets/heroAbout.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
+   @media screen and(max-width:914px) {
+.first-part{
 
-} */
+display: flex;
+flex-direction: column !important;
+}
+   }
 </style>

@@ -25,7 +25,6 @@
                         <v-card-title>{{ product .title }}</v-card-title>
                         <v-card-subtitle>{{ product . price }} $ - {{ product . category }}</v-card-subtitle>
                         <v-card-text>{{trucate(product . description) }}</v-card-text>
-                        <!-- trucate(product . description)  -->
                         <v-card-actions>
                             <!-- <v-btn rounded color="primary" @click="addToCard(product)">
                                 <v-icon large color="primary">

@@ -14,20 +14,11 @@
      <!-- Home -->
      {{ $t('message.navbar.home') }}
       </v-btn>
-  <!-- <v-btn class="text-uppercase" color="white" id="btn"  variant="text">
-     services
-    </v-btn> -->
-    <!-- <v-btn class="text-uppercase" color="white" id="btn" variant="text">
-    portfolio
-    </v-btn> -->
 
     <v-btn class="text-uppercase" color="white" id="btn" variant="text" href="/about ">
     <!-- about -->
     {{ $t('message.navbar.about') }}
     </v-btn>
-    <!-- <v-btn class="text-uppercase" color="white" id="btn" variant="text">
-    team
-    </v-btn> -->
     <v-btn class="text-uppercase" color="white" id="btn" variant="text" href="/contact ">
     <!-- contact -->
     {{ $t('message.navbar.contact') }}
@@ -36,9 +27,6 @@
     <!-- products -->
     {{ $t('message.navbar.products') }}
     </v-btn>
-    <!-- <v-btn class="text-uppercase" color="white" id="btn"  variant="text" to="/single">
-      singleProduct
-    </v-btn> -->
 
     <v-btn class="text-uppercase" color="white" id="btn" variant="text" to="/profile" v-if="isLoggedIn">
 

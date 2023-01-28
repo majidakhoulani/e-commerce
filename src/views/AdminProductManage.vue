@@ -52,16 +52,6 @@ import { mapState } from 'pinia';
               rail: true,
                 }
               },
-        //       computed: {
-        //     ...mapState(useProductsStoreStore, ['productStore','getProducts'])
-        // },
-        // methods:{
-        //   ...mapActions(useCartStore,['fetchProducts'])
-        // }
-
-              // computed(){
-              //   ...mapState(useProductStore,['productStore'])
-              // }
 
   }
 </script>

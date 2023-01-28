@@ -7,24 +7,9 @@
 
                 <v-row no-gutters class="d-flex justify-space-between mt-10 mb-6 pa-4">
                     <h1 class="page-title">Users</h1>
-                    <!-- <v-menu offset-y>
-                        <template v-slot:activator="{ on, attrs }">
-                             <v-btn v-bind="attrs" v-on="on" color="secondary"
-                                class="text-capitalize button-shadow">Add New User
-                            </v-btn>
 
-                        </template>
-
-                    </v-menu> -->
                 </v-row>
-                <!-- <v-row>
-                  <v-col>
-                    <v-form @submit.prevent="addProductAndClear(todo)">
-    <v-text-field v-model="todo" type="text"></v-text-field>
-    <v-btn type="submit" class="primary">Add</v-btn>
-  </v-form>
-                  </v-col>
-                </v-row> -->
+              
                 <v-row>
                     <v-col>
                         <p class="pa-2">UsersCount is : {{ getUsersCount }}</p>
@@ -63,9 +48,7 @@
                                             <td class="text-center w-25">{{ user . phone }}</td>
 
                                             <td class="text-center w-25">
-                                                <!-- <v-btn class="primary" @click="removeProduct(item.id)">
-                remove
-            </v-btn> -->
+
 
                                                 <v-icon size="15" class="text-red-darken-2 ma-2 "
                                                     @click="removeUser(user.id)">mdi-delete</v-icon>
@@ -80,13 +63,13 @@
                     </v-row>
 
                 </section>
-                <!-- <ProductTable /> -->
+
             </v-main>
         </v-layout>
     </v-card>
 </template>
 <script>
-    // import ProductTable from '@/components/ProductTable.vue';
+
     import {
         useAdminUsersStore
     } from '@/store/AdminUsers';

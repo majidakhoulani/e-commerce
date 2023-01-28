@@ -9,17 +9,15 @@
 import { useAdminProductsStore } from '@/store/AdminProducts';
 import { mapActions } from 'pinia';
 
-//import { ref } from "vue";
+
 export default {
  data() {
-   // const todo = ref("");
+
     return {
       todo:''
      }
   },
-  // computed:{
-  //   ...mapState(useAdminProductsStore)
-  // },
+
   methods:{
   addProductAndClear(item) {
   if (item.length === 0) {

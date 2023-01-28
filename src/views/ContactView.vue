@@ -9,10 +9,10 @@
         <div class="location-content mt-12 ">
             <v-container>
                 <v-row no-gutters justify="center">
-                    <v-col cols="6" align="center" class="ma-auto">
+                    <v-col cols="12" sm="6" align="center" class="ma-auto">
                         <v-img class="pa-16 ma-auto" src="https://sm.mashable.com/mashable_in/seo/default/how-to-share-live-location-on-google-maps_tmvg.jpg" cover/>
                     </v-col>
-                    <v-col cols="6" class="pl-8">
+                    <v-col cols="12" sm="6" class="pl-8 map">
 
                         <MapSection />
                     </v-col>
@@ -29,7 +29,7 @@
         <div class="contact-content mt-12 ">
             <v-container>
                 <v-row no-gutters>
-                    <v-col cols="6">
+                    <v-col cols="12" sm="6">
                         <v-form ref="form" id="form">
                             <v-text-field v-model="name" :counter="10" :rules="nameRules" label="Your Name"
                                 required bg-color="#F8F9FA" color="#ffc800"></v-text-field>
@@ -43,12 +43,12 @@
                             <v-textarea solo name="input-7-4" label="" placeholder="Your Message"
                                 bg-color="#F8F9FA" color="#ffc800"></v-textarea>
 
-                            <v-btn  color="orange darken-2" elevation="2" class="mt-12 pa-4 h-75" width="224">
+                            <v-btn  color="orange darken-2" elevation="2" class="mt-12 pa-4 h-75 button" width="224">
                                 <span class="text-white text-uppercase text-h6">send message</span>
                             </v-btn>
                         </v-form>
                     </v-col>
-                    <v-col cols="6" class="pl-8">
+                    <v-col cols="12" sm="6" class="pl-8 info">
                         <v-row no-gutters>
                             <v-col cols="12" class="mb-8">
                                 <v-card elevation="2" outlined shaped height="150" class="pa-6" color="#F8F9FA">
@@ -112,8 +112,6 @@
         },
 
         data: () => ({
-            // title:'',
-            // bgHeroImage:'',
             valid: false,
             name: '',
             nameRules: [
@@ -141,8 +139,21 @@
         background-size: cover;
         background-color: black;
     }
+    @media screen and (max-width:914px){
 
-    /* .location {
-        background-color: #F8F9FA;
-    } */
+      .location-content .map{
+        padding-left: 0 !important;
+
+      }
+.contact-content .button{
+  margin-bottom: 30px;
+}
+.contact-content .info{
+  padding-left: 0 !important;
+
+}
+  }
+
+
+
 </style>

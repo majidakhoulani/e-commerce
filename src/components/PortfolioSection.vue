@@ -13,10 +13,8 @@
                   <v-col v-for="portfoli in  portfolioList " :key="portfoli.id" cols="12" sm="4"
                       class="mb-8">
                       <v-hover v-slot="{ isHovering, props }">
-                      <!-- <v-hover v-slot="{ hover }"> -->
-                          <v-card class="mx-auto" max-width="344" :elevation="hover ? 12 : 2"
+                          <v-card class="mx-auto" max-width="344"
                               v-bind="props">
-                              <!--    :class="{ 'on-hover': hover }" -->
                               <v-img :src="portfoli.src" height="200px" cover> </v-img>
 
 
@@ -39,13 +37,11 @@
           :href="portfoli . href"
          >
           <v-icon size="24px" color="#fff" >mdi-github</v-icon>
-<!--  href="https://github.com/majidakhoulani" -->
         </v-btn>
             </div>
           </v-expand-transition>
                           </v-card>
                         </v-hover>
-                      <!-- </v-hover> -->
                   </v-col>
               </v-row>
           </v-container>
@@ -99,12 +95,6 @@ export default{
                   explain: 'Identity',
                   href:''
               },
-              // {
-              //     id: 7,
-              //     src: '../src/assets/images/portfolio/fresh.jpg',
-              //     title: 'Bulma',
-              //     explain: 'Website'
-              // },
               {
                   id: 7,
                   src: ' ../src/assets/images/portfolio/4.jpg',
@@ -137,13 +127,6 @@ export default{
  {
       background-color: #F8F9FA;
   }
-  /* .portfolio .v-card {
-      transition: opacity .4s ease-in-out;
-  }
-
-  .portfolio .v-card:hover {
-      opacity: 0.6;
-  } */
   .v-card--reveal {
     align-items: center;
     bottom: 0;
@@ -151,6 +134,5 @@ export default{
     opacity: .8;
     position: absolute;
     width: 100%;
-    /* background-color: #ffc800; */
   }
 </style>

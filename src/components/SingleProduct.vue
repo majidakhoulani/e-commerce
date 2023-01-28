@@ -1,14 +1,5 @@
  <template>
   <div v-if="product">
-
-  <!-- <v-carousel hide-delimiters>
-    <v-carousel-item
-      v-for="(image,imageIndex) in product.images"
-      :key="imageIndex"
-      :src="image[imageIndex]"
-      cover
-    ></v-carousel-item>
-  </v-carousel> -->
   <v-carousel show-arrows="hover">
   <v-carousel-item
     src="@/assets/images/portfolio/1.jpg"

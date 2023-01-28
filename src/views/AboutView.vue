@@ -1,5 +1,4 @@
 <template>
-  <!-- <TheNavbar /> -->
  <HeroSection title="Welcome To Our Studio!" src="../src/assets/about2.jpg"/>
 <AboutSection id="aboutSection"/>
 <TeamSection/>
@@ -8,7 +7,6 @@
 
 
 <script>
-  // import TheNavbar from '@/components/TheNavbar.vue';
   import HeroSection from '@/components/HeroSection.vue';
 import TheFooter from '@/components/TheFooter.vue';
 import AboutSection from '@/components/AboutSection.vue';
@@ -24,7 +22,6 @@ import TeamSection from '@/components/TeamSection.vue';
 },
 
       data: () => ({
-        // Welcome To Our Studio!
         title:'',
         bgHeroImage:'',
 
@@ -68,42 +65,3 @@ import TeamSection from '@/components/TeamSection.vue';
       }),
   }
 </script>
-
-<style>
-
-
-
-
-  /* .testimonials {
-      background-color: #F8F9FA;
-  } */
-
-  /* .contact {
-      background-image: url(../assets/map-image.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-color: black;
-  } */
-
-  /* .contact #form {
-      color: #ced4da;
-      background-color: #000;
-  } */
-
-  /* .contact #form #input{
-background-color: #fff !important;
-color: #F8F9FA !important;
-  } */
-
-  /* .team {
-      background-color: #F8F9FA;
-  }
-
-  .team-content a {
-      text-decoration: none;
-  } */
-  /* .testimonials .v-card.on-hover.theme--dark {
-      background-color: rgba(#FFF, 0.8)
-       box-shadow: 5px px 10px 10px   rgba(#FFF, 0.8);
-  } */
-</style>

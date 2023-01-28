@@ -1,5 +1,3 @@
-<!-- views/NotFound.vue -->
-
 <template>
   <div class="NotFound">
     <v-container>

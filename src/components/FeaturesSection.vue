@@ -68,30 +68,9 @@
                         name: 'Filltering',
                         lorem: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit aut nemo officiis autem quas.'
                     },
-                    // {
-                    //     icon: 'mdi-dark',
-                    //     name: 'Working Off',
-                    //     lorem: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit aut nemo officiis autem quas.'
-                    // },
-                    // {
-                    //     icon: 'mdi-brightness',
-                    //     name: 'Working Off',
-                    //     lorem: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit aut nemo officiis autem quas.'
-                    // },
-
-
-
                 ],
             }
         }
     }
 </script>
 
-<style>
-/* .features {
-
-        background-color: #F8F9FA;
-
-
-} */
-</style>

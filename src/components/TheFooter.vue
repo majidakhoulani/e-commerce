@@ -43,21 +43,6 @@
           <v-icon size="24px" color="white">mdi-instagram</v-icon>
 
         </v-btn>
-
-        <!-- <v-btn
-          v-for="icon in icons"
-          :key="icon"
-          class="mx-4"
-         color="#000"
-          icon
-          to="majidakh1993@gmail.com"
-        >
-          <v-icon size="24px" color="white">
-            {{ icon }}
-
-
-          </v-icon>
-        </v-btn> -->
       </v-card-title>
 
       <v-card-text class="py-2 text-center">
@@ -77,12 +62,6 @@
         'mdi-linkedin',
         'mdi-instagram',
       ],
-      // soicalMediaHref: [
-      //   'majidakh1993@gmail.com',
-      //   '@majidakhoulani',
-      //   'majidakhoulani',
-      //   'majidakhoulani',
-      // ],
     }),
 
 

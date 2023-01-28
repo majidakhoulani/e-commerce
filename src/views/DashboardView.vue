@@ -1,5 +1,4 @@
-
- <template>
+<template>
   <v-card >
     <v-layout >
       <v-main style="height: 950px;background-color:#CFCFCF;">

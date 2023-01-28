@@ -5,24 +5,7 @@
             <v-main style="background-color: #CFCFCF;">
                 <v-row no-gutters class="d-flex justify-space-between mt-10 mb-6 pa-4">
                     <h1 class="page-title">Products</h1>
-                    <!-- <v-menu offset-y>
-                        <template v-slot:activator="{ on, attrs }">
-                             <v-btn v-bind="attrs" v-on="on" color="secondary"
-                                class="text-capitalize button-shadow">Add New Product
-                            </v-btn>
-
-                        </template>
-
-                    </v-menu> -->
                 </v-row>
-                <!-- <v-row>
-                  <v-col>
-                    <v-form @submit.prevent="addProductAndClear(todo)">
-    <v-text-field v-model="todo" type="text"/>
-    <v-btn type="submit" class="primary">Add</v-btn>
-  </v-form>
-                  </v-col>
-                </v-row> -->
                 <v-row justify="center">
                     <v-col cols="12" align="left">
                         <div>
@@ -86,8 +69,6 @@
                                                         <v-icon size="15" class="text-red-darken-2 ma-2"
                                                             @click="removeProduct(item.id)">mdi-delete</v-icon>
                                                     </v-btn>
-                                                    <!-- <v-icon size="15" color="bg-red" class="text-green-darken-2 ma-2 ">
-                                                    mdi-pencil</v-icon> -->
                                                     <AdminEditProduct class="pa-3" />
                                                 </div>
                                             </td>
@@ -99,13 +80,13 @@
                     </v-row>
 
                 </section>
-                <!-- <ProductTable /> -->
+
             </v-main>
         </v-layout>
     </v-card>
 </template>
 <script>
-    // import ProductTable from '@/components/ProductTable.vue';
+
     import {
         useAdminProductsStore
     } from '@/store/AdminProducts';
@@ -159,23 +140,11 @@
                 this.Category = ''
             },
             ...mapActions(useAdminProductsStore, ['fetchProducts', 'removeProduct']),
-            //   addProductAndClear(item) {
-            //   if (item.length === 0) {
-            //     return
-            //   }
-            //   //...mapActions(useAdminProductsStore,['addNewProduct'])
-            // this.addNewProduct(item)
-            // this.todo=''
-            //   // todo.value = ''
-            // }
         }
 
     }
 </script>
 <style>
-    /* .table{
-  background-color: #aaa;
-} */
     .table th,
     td {
         border: 1px solid grey;

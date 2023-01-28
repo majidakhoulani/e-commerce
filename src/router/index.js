@@ -146,18 +146,18 @@ return { top:500}
 },
 
 })
-// router.beforeEach(function (to, from, next) {
-//   const store = useUserStore()
+router.beforeEach(function (to, from, next) {
+  const store = useUserStore()
 
-//   if (to.meta.guard === 'auth' && !store.isLoggedIn) {
-//     next('/login')
-//   }
-//   else if (to.meta.guard === 'vistor' && store.isLoggedIn) {
-//     next('/profile')
-//   }
-//   else
-//     next()
-// })
+  if (to.meta.guard === 'auth' && !store.isLoggedIn) {
+    next('/login')
+  }
+  else if (to.meta.guard === 'vistor' && store.isLoggedIn) {
+    next('/profile')
+  }
+  else
+    next()
+})
 
 
 export default router

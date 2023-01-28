@@ -13,7 +13,8 @@
               <v-row no-gutters>
                   <v-col v-for="service in serviceList " :key="service.id" cols="12" sm="4">
                       <v-sheet class="ma-2 pa-2">
-                          <v-img class="ma-auto" :aspect-ratio="aspectRatio" :src="service.src" cover
+                        <!-- :aspect-ratio="aspectRatio" -->
+                          <v-img class="ma-auto"  :src="service.src" cover
                               width="150" height="150"></v-img>
                           <h4 class="subheading pa-4 font-weight-bold">{{ service . title }}</h4>
                           <p class="text-medium-emphasis">{{ service . explain }}</p>

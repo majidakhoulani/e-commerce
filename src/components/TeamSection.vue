@@ -73,25 +73,6 @@
                   explain: 'FullStack Developer',
                   href:'https://github.com/TaiseerAlmedani'
               },
-              // {
-              //     id: 4,
-              //     src: '../src/assets/images/team/1.jpg',
-              //     title: 'Parveen Anand',
-              //     explain: 'Lead Designer'
-              // },
-              // {
-              //     id: 5,
-              //     src: '../src/assets/images/team/2.jpg',
-              //     title: 'Diana Petersen',
-              //     explain: 'Lead Marketer'
-              // },
-              // {
-              //     id: 6,
-              //     src: '../src/assets/images/team/3.jpg',
-              //     title: 'Larry Parker',
-              //     explain: 'Lead Developer'
-              // }
-              // https://github.com/TaiseerAlmedani   &&& https://github.com/RoduanKD
           ],
       }),
   }

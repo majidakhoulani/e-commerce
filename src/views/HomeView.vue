@@ -39,8 +39,6 @@ import FeaturesSection from '@/components/FeaturesSection.vue';
       data(){
         return{
           title:'',
-        bgHeroImage:'',
-        // src:'../src/assets/images/heroAbout.jpg'
         }
       }
     }
@@ -48,21 +46,3 @@ import FeaturesSection from '@/components/FeaturesSection.vue';
 
 </script>
 
-<style>
-
-
-
-
-
-
-
-/*
-  .team {
-      background-color: #F8F9FA;
-  }
-
-  .team-content a {
-      text-decoration: none;
-  } */
-
-</style>

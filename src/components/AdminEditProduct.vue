@@ -1,7 +1,5 @@
 <template>
   <v-row justify="center">
-       <!-- <v-icon size="15" color="bg-red" class="text-green-darken-2 ma-2 ">
-                                                    mdi-pencil</v-icon> -->
     <v-dialog
       v-model="dialog"
       persistent
