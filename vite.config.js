@@ -9,13 +9,12 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-<<<<<<< HEAD
+
   //  publicPath: '/e-commerce-vuetify/',
-  base:'/e-commerce-vuetify/',
-=======
-   publicPath: '/e-commerce-vuetify/',
   // base:'/e-commerce-vuetify/',
->>>>>>> 75a66820957a4f0e4736037ce5d939d1bdf691b6
+
+  //  publicPath: '/e-commerce-vuetify/',
+  // base:'/e-commerce-vuetify/',
   plugins: [
     vue({
       template: { transformAssetUrls }
