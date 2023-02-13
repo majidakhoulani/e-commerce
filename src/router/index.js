@@ -1,14 +1,33 @@
 // Composables
 import { createRouter, createWebHistory } from 'vue-router'
 import { useUserStore } from '@/store/User'
+const router = createRouter({
+  history: createWebHistory(process.env.NODE_ENV === "production" ? "/e-commerce/" : "/"),
+
+ routes,
+ scrollBehavior(to, from, savedPosition) {
+   if (savedPosition) {
+       return savedPosition;
+
+   }
+
+    else if (to.hash) {
+       return { selector: to.hash,
+         behavior:'smooth'};
+   }
+return { top:500}
+},
+
+})
 
 const routes = [
   {
     path: '/',
     component: () => import('@/layouts/default/Default.vue'),
+    redirect: { name: 'Home' },
     children: [
       {
-        path: '',
+        path: '/e-commerce/',
         name: 'Home',
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
@@ -16,7 +35,7 @@ const routes = [
         component: () => import(/* webpackChunkName: "home" */ '@/views/HomeView.vue'),
       },
       {
-        path: '/products',
+        path: '/e-commerce/products',
         name: 'Products',
         component: () => import(/* webpackChunkName: "products" */ '@/views/ProductsView.vue'),
         meta: {
@@ -24,14 +43,15 @@ const routes = [
         },
       },
       {
-        path: '/about',
+        path: '/e-commerce/about',
         name: 'About',
         component: () => import(/* webpackChunkName: "about" */ '@/views/AboutView.vue'),
       },
+
       {
-        path: '/contact',
+        path: '/e-commerce/contact',
         name: 'Contact',
-        component: () => import(/* webpackChunkName: "about" */ '@/views/ContactView.vue'),
+        component: () => import(/* webpackChunkName: "contact" */ '@/views/ContactView.vue'),
       },
       {
         path: '/singleproduct/:id',
@@ -67,7 +87,7 @@ const routes = [
         },
       },
       {
-      path: '/:pathMatch(.*)*',
+      path: '/e-commerce/:pathMatch(.*)*',
       name: 'Not Found',
       component: () => import("@/views/NotFoundView.vue")
       }
@@ -79,12 +99,6 @@ const routes = [
     path: '/',
     component: () => import('@/layouts/app-free/AppbarFree.vue'),
     children:[
-      // {
-      //   path: '/admin',
-      //   name: 'Admin',
-      //   component: () => import(/* webpackChunkName: "Admin" */ '@/views/AdminView.vue'),
-
-      // },
       {
         path: '/dashboard',
         name: 'Dashboard',
@@ -109,24 +123,7 @@ const routes = [
 
 ]
 
-const router = createRouter({
-   history: createWebHistory(process.env.NODE_ENV === "production" ? "/e-commerce/" : "/"),
 
-  routes,
-  scrollBehavior(to, from, savedPosition) {
-    if (savedPosition) {
-        return savedPosition;
-
-    }
-
-     else if (to.hash) {
-        return { selector: to.hash,
-          behavior:'smooth'};
-    }
-return { top:500}
-},
-
-})
 router.beforeEach(function (to, from, next) {
   const store = useUserStore()
 

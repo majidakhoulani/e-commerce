@@ -5,7 +5,7 @@
  */
 
 // Components
-import { registerSW } from 'virtual:pwa-register'
+//import { registerSW } from 'virtual:pwa-register'
 
 
 import App from './App.vue'
@@ -22,7 +22,7 @@ registerPlugins(app)
 
 app.mount('#app')
 
-const updateSW = registerSW({
-  onOfflineReady() {},
-})
+// const updateSW = registerSW({
+//   onOfflineReady() {},
+// })
 
