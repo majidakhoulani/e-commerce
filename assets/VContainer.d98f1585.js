@@ -1,0 +1,1 @@
+import"./VCard.f61e235a.js";import{m as t,u as n}from"./router.ed7ae04f.js";import{i as r,c as s}from"./index.495533a0.js";const f=r({name:"VContainer",props:{fluid:{type:Boolean,default:!1},...t()},setup(e,a){let{slots:o}=a;return n(()=>s(e.tag,{class:["v-container",{"v-container--fluid":e.fluid}]},o)),{}}});export{f as V};
