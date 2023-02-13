@@ -26,25 +26,11 @@ const routes = [
       {
         path: '/about',
         name: 'About',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
         component: () => import(/* webpackChunkName: "about" */ '@/views/AboutView.vue'),
       },
-      // {
-      //   path: '/about#aboutSection',
-      //   name: 'About',
-      //   // route level code-splitting
-      //   // this generates a separate chunk (about.[hash].js) for this route
-      //   // which is lazy-loaded when the route is visited.
-      //   component: () => import(/* webpackChunkName: "about" */ '@/views/AboutView.vue'),
-      // },
       {
         path: '/contact',
         name: 'Contact',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
         component: () => import(/* webpackChunkName: "about" */ '@/views/ContactView.vue'),
       },
       {
@@ -134,11 +120,6 @@ const router = createRouter({
     }
 
      else if (to.hash) {
-    //   const options =
-    //  {top:document.querySelector(to.hash).offsetTop,
-    //   behavior:'smooth'
-    // }
-    // window.scrollTo(options)
         return { selector: to.hash,
           behavior:'smooth'};
     }
