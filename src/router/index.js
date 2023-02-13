@@ -1,33 +1,14 @@
 // Composables
 import { createRouter, createWebHistory } from 'vue-router'
 import { useUserStore } from '@/store/User'
-const router = createRouter({
-  history: createWebHistory(process.env.NODE_ENV === "production" ? "/e-commerce/" : "/"),
-
- routes,
- scrollBehavior(to, from, savedPosition) {
-   if (savedPosition) {
-       return savedPosition;
-
-   }
-
-    else if (to.hash) {
-       return { selector: to.hash,
-         behavior:'smooth'};
-   }
-return { top:500}
-},
-
-})
 
 const routes = [
   {
     path: '/',
     component: () => import('@/layouts/default/Default.vue'),
-    redirect: { name: 'Home' },
     children: [
       {
-        path: '/e-commerce/',
+        path: '',
         name: 'Home',
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
@@ -35,7 +16,7 @@ const routes = [
         component: () => import(/* webpackChunkName: "home" */ '@/views/HomeView.vue'),
       },
       {
-        path: '/e-commerce/products',
+        path: '/products',
         name: 'Products',
         component: () => import(/* webpackChunkName: "products" */ '@/views/ProductsView.vue'),
         meta: {
@@ -43,13 +24,13 @@ const routes = [
         },
       },
       {
-        path: '/e-commerce/about',
+        path: '/about',
         name: 'About',
         component: () => import(/* webpackChunkName: "about" */ '@/views/AboutView.vue'),
       },
 
       {
-        path: '/e-commerce/contact',
+        path: '/contact',
         name: 'Contact',
         component: () => import(/* webpackChunkName: "contact" */ '@/views/ContactView.vue'),
       },
@@ -87,7 +68,7 @@ const routes = [
         },
       },
       {
-      path: '/e-commerce/:pathMatch(.*)*',
+      path: '/:pathMatch(.*)*',
       name: 'Not Found',
       component: () => import("@/views/NotFoundView.vue")
       }
@@ -122,6 +103,25 @@ const routes = [
   },
 
 ]
+
+const router = createRouter({
+  history: createWebHistory(process.env.NODE_ENV === "production" ? "/e-commerce/" : "/"),
+
+ routes,
+ scrollBehavior(to, from, savedPosition) {
+   if (savedPosition) {
+       return savedPosition;
+
+   }
+
+    else if (to.hash) {
+       return { selector: to.hash,
+         behavior:'smooth'};
+   }
+return { top:500}
+},
+
+})
 
 
 router.beforeEach(function (to, from, next) {

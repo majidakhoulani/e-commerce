@@ -15,15 +15,15 @@
      {{ $t('message.navbar.home') }}
       </v-btn>
 
-    <v-btn class="text-uppercase" color="white" id="btn" variant="text" href="/about ">
+    <v-btn class="text-uppercase" color="white" id="btn" variant="text" to="/about ">
     <!-- about -->
     {{ $t('message.navbar.about') }}
     </v-btn>
-    <v-btn class="text-uppercase" color="white" id="btn" variant="text" href="/contact ">
+    <v-btn class="text-uppercase" color="white" id="btn" variant="text" to="/contact ">
     <!-- contact -->
     {{ $t('message.navbar.contact') }}
     </v-btn>
-    <v-btn class="text-uppercase" color="white" id="btn"  variant="text" href="/products ">
+    <v-btn class="text-uppercase" color="white" id="btn"  variant="text" to="/products ">
     <!-- products -->
     {{ $t('message.navbar.products') }}
     </v-btn>
