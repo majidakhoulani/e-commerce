@@ -16,14 +16,6 @@ const routes = [
         component: () => import(/* webpackChunkName: "home" */ '@/views/HomeView.vue'),
       },
       {
-        path: '/products',
-        name: 'Products',
-        component: () => import(/* webpackChunkName: "products" */ '@/views/ProductsView.vue'),
-        meta: {
-          guard: 'auth'
-        },
-      },
-      {
         path: '/about',
         name: 'About',
         component: () => import(/* webpackChunkName: "about" */ '@/views/AboutView.vue'),
@@ -33,6 +25,14 @@ const routes = [
         path: '/contact',
         name: 'Contact',
         component: () => import(/* webpackChunkName: "contact" */ '@/views/ContactView.vue'),
+      },
+      {
+        path: '/products',
+        name: 'Products',
+        component: () => import(/* webpackChunkName: "products" */ '@/views/ProductsView.vue'),
+        meta: {
+          guard: 'auth'
+        },
       },
       {
         path: '/singleproduct/:id',

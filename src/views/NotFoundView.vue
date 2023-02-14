@@ -1,8 +1,8 @@
 <template>
-  <div class="NotFound">
+  <div>
     <v-container>
       <v-layout row wrap>
-        <v-flex xs12>
+        <!-- <v-flex xs12> -->
           <v-card height="400" color="transparent" flat align="center" class="mt-8">
             <div class="text-center">404 Page not found.</div>
             <div class="paragraph-text mt-2">
@@ -12,7 +12,7 @@
               <v-btn color="primary" href="/"> Back to Home</v-btn>
             </div>
           </v-card>
-        </v-flex>
+        <!-- </v-flex> -->
       </v-layout>
     </v-container>
   </div>

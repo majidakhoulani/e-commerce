@@ -15,19 +15,21 @@
      {{ $t('message.navbar.home') }}
       </v-btn>
 
-    <v-btn class="text-uppercase" color="white" id="btn" variant="text" to="/about ">
+    <router-link to="/about"  style="text-decoration: none;"><v-btn class="text-uppercase" color="white" id="btn" variant="text">
     <!-- about -->
     {{ $t('message.navbar.about') }}
     </v-btn>
-    <v-btn class="text-uppercase" color="white" id="btn" variant="text" to="/contact ">
+  </router-link>
+  <router-link to="/contact"  style="text-decoration: none;"><v-btn class="text-uppercase" color="white"  id="btn" variant="text">
     <!-- contact -->
     {{ $t('message.navbar.contact') }}
     </v-btn>
-    <v-btn class="text-uppercase" color="white" id="btn"  variant="text" to="/products ">
+  </router-link>
+<router-link to="/products" style="text-decoration: none;"><v-btn class="text-uppercase" color="white" id="btn"  variant="text" >
     <!-- products -->
     {{ $t('message.navbar.products') }}
     </v-btn>
-
+  </router-link>
     <v-btn class="text-uppercase" color="white" id="btn" variant="text" to="/profile" v-if="isLoggedIn">
 
     {{ user.firstName }}
