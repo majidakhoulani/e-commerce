@@ -1,5 +1,5 @@
 <template>
- <HeroSection title="Welcome To Our Studio!" src="../src/assets/about2.jpg"/>
+ <HeroSection title="Welcome To Our Studio!" src="/assets/about2.jpg"/>
 <AboutSection id="aboutSection"/>
 <TeamSection/>
   <TheFooter />

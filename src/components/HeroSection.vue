@@ -1,6 +1,6 @@
 <template>
     <section class="hero-section">
-      <v-parallax dark :src="src">
+      <v-parallax dark src="/assets/images/header-bg.jpg">
 
     <v-row align="center" justify="center" class="hero-section-content">
               <v-col class="text-center" cols="12">
@@ -25,7 +25,7 @@
 export default{
   props:{
   title:'Welcome To Our Studio!',
-  src:'../src/assets/images/header-bg.jpg'
+  // src:'../public/assets/images/header-bg.jpg'
 },
 }
 </script>

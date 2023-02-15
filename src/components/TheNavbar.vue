@@ -14,12 +14,13 @@
      <!-- Home -->
      {{ $t('message.navbar.home') }}
       </v-btn>
-
-    <router-link :to="{ name: 'about'}" style="text-decoration: none;"><v-btn class="text-uppercase" color="white" id="btn" variant="text">
+<!--
+    <router-link :to="{ name: 'about'}" style="text-decoration: none;"> -->
+      <v-btn class="text-uppercase" color="white" id="btn" variant="text" to="/about">
     <!-- about -->
     {{ $t('message.navbar.about') }}
     </v-btn>
-  </router-link>
+  <!-- </router-link> -->
   <router-link :to="{ name: 'contact'}"  style="text-decoration: none;"><v-btn class="text-uppercase" color="white"  id="btn" variant="text">
     <!-- contact -->
     {{ $t('message.navbar.contact') }}
