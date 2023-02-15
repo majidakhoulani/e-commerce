@@ -16,26 +16,26 @@ const routes = [
         component: () => import(/* webpackChunkName: "home" */ '@/views/HomeView.vue'),
       },
       {
-        path: '/about',
-        name: 'About',
+        path: 'about',
+        name: 'about',
         component: () => import(/* webpackChunkName: "about" */ '@/views/AboutView.vue'),
       },
 
       {
-        path: '/contact',
-        name: 'Contact',
+        path: 'contact',
+        name: 'contact',
         component: () => import(/* webpackChunkName: "contact" */ '@/views/ContactView.vue'),
       },
       {
-        path: '/products',
-        name: 'Products',
+        path: 'products',
+        name: 'products',
         component: () => import(/* webpackChunkName: "products" */ '@/views/ProductsView.vue'),
         meta: {
           guard: 'auth'
         },
       },
       {
-        path: '/singleproduct/:id',
+        path: 'singleproduct/:id',
        name: 'singleproduct',
        component: () => import(/* webpackChunkName: "singleproduct" */ '@/views/SingleProductView.vue'),
         meta: {
@@ -44,31 +44,31 @@ const routes = [
 
      },
       {
-        path: '/cart',
-        name: 'Cart',
+        path: 'cart',
+        name: 'cart',
         component: () => import(/* webpackChunkName: "Cart" */ '@/views/CartView.vue'),
         meta: {
           guard: 'auth'
         },
       },
       {
-        path: '/login',
-        name: 'Login',
+        path: 'login',
+        name: 'login',
         component: () => import(/* webpackChunkName: "Login" */ '@/views/LoginView.vue'),
         meta:{
           guard:'vistor'
         }
       },
       {
-        path: '/profile',
-        name: 'Profile',
+        path: 'profile',
+        name: 'profile',
         component: () => import(/* webpackChunkName: "Profile" */ '@/views/ProfileView.vue'),
         meta: {
           guard: 'auth'
         },
       },
       {
-      path: '/:pathMatch(.*)*',
+      path: ':pathMatch(.*)*',
       name: 'Not Found',
       component: () => import("@/views/NotFoundView.vue")
       }
@@ -81,20 +81,20 @@ const routes = [
     component: () => import('@/layouts/app-free/AppbarFree.vue'),
     children:[
       {
-        path: '/dashboard',
-        name: 'Dashboard',
+        path: 'dashboard',
+        name: 'dashboard',
         component: () => import(/* webpackChunkName: "Dashboard" */ '@/views/DashboardView.vue'),
 
       },
       {
-        path: '/productInfo',
-        name: 'ProductInfo',
+        path: 'productInfo',
+        name: 'productInfo',
         component: () => import(/* webpackChunkName: "ProductInfo" */ '@/views/ProductInfoView.vue'),
 
       },
       {
-        path: '/userInfo',
-        name: 'UserInfo',
+        path: 'userInfo',
+        name: 'userInfo',
         component: () => import(/* webpackChunkName: "UserInfo" */ '@/views/UserInfoView.vue'),
 
       },

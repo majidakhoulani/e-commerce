@@ -46,7 +46,7 @@
       </v-card-title>
 
       <v-card-text class="py-2 text-center">
-        2023 <router-link :to="{ name: 'About', params: { hash: '#aboutSection' } }"><strong class="text-black">Vuetify-Majida Khoulani</strong> </router-link>
+        2023 <router-link :to="{ name: 'about', params: { hash: '#aboutSection' } }"><strong class="text-black">Vuetify-Majida Khoulani</strong> </router-link>
       </v-card-text>
     </v-card>
   </v-container>

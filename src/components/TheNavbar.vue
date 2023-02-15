@@ -15,17 +15,17 @@
      {{ $t('message.navbar.home') }}
       </v-btn>
 
-    <router-link :to="{ name: 'About'}" style="text-decoration: none;"><v-btn class="text-uppercase" color="white" id="btn" variant="text">
+    <router-link :to="{ name: 'about'}" style="text-decoration: none;"><v-btn class="text-uppercase" color="white" id="btn" variant="text">
     <!-- about -->
     {{ $t('message.navbar.about') }}
     </v-btn>
   </router-link>
-  <router-link :to="{ name: 'Contact'}"  style="text-decoration: none;"><v-btn class="text-uppercase" color="white"  id="btn" variant="text">
+  <router-link :to="{ name: 'contact'}"  style="text-decoration: none;"><v-btn class="text-uppercase" color="white"  id="btn" variant="text">
     <!-- contact -->
     {{ $t('message.navbar.contact') }}
     </v-btn>
   </router-link>
-<router-link  :to="{ name: 'Products'}" style="text-decoration: none;"><v-btn class="text-uppercase" color="white" id="btn"  variant="text" >
+<router-link  :to="{ name: 'products'}" style="text-decoration: none;"><v-btn class="text-uppercase" color="white" id="btn"  variant="text" >
     <!-- products -->
     {{ $t('message.navbar.products') }}
     </v-btn>
