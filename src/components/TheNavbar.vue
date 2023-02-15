@@ -16,7 +16,7 @@
       </v-btn>
 <!--
     <router-link :to="{ name: 'about'}" style="text-decoration: none;"> -->
-      <v-btn class="text-uppercase" color="white" id="btn" variant="text" to="about">
+      <v-btn class="text-uppercase" color="white" id="btn" variant="text" to="/about">
     <!-- about -->
     {{ $t('message.navbar.about') }}
     </v-btn>
