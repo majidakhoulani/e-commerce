@@ -16,18 +16,18 @@ const routes = [
         component: () => import(/* webpackChunkName: "home" */ '@/views/HomeView.vue'),
       },
       {
-        path: '/about',
+        path: 'about',
         name: 'about',
         component: () => import(/* webpackChunkName: "about" */ '@/views/AboutView.vue'),
       },
 
       {
-        path: '/contact',
+        path: 'contact',
         name: 'contact',
         component: () => import(/* webpackChunkName: "contact" */ '@/views/ContactView.vue'),
       },
       {
-        path: '/products',
+        path: 'products',
         name: 'products',
         component: () => import(/* webpackChunkName: "products" */ '@/views/ProductsView.vue'),
         meta: {
@@ -35,7 +35,7 @@ const routes = [
         },
       },
       {
-        path: '/singleproduct/:id',
+        path: 'singleproduct/:id',
        name: 'singleproduct',
        component: () => import(/* webpackChunkName: "singleproduct" */ '@/views/SingleProductView.vue'),
         meta: {
@@ -44,7 +44,7 @@ const routes = [
 
      },
       {
-        path: '/cart',
+        path: 'cart',
         name: 'cart',
         component: () => import(/* webpackChunkName: "Cart" */ '@/views/CartView.vue'),
         meta: {
@@ -52,7 +52,7 @@ const routes = [
         },
       },
       {
-        path: '/login',
+        path: 'login',
         name: 'login',
         component: () => import(/* webpackChunkName: "Login" */ '@/views/LoginView.vue'),
         meta:{
@@ -60,7 +60,7 @@ const routes = [
         }
       },
       {
-        path: '/profile',
+        path: 'profile',
         name: 'profile',
         component: () => import(/* webpackChunkName: "Profile" */ '@/views/ProfileView.vue'),
         meta: {
@@ -68,7 +68,7 @@ const routes = [
         },
       },
       {
-      path: '/:pathMatch(.*)*',
+      path: ':pathMatch(.*)*',
       name: 'Not Found',
       component: () => import("@/views/NotFoundView.vue")
       }
@@ -81,19 +81,19 @@ const routes = [
     component: () => import('@/layouts/app-free/AppbarFree.vue'),
     children:[
       {
-        path: '/dashboard',
+        path: 'dashboard',
         name: 'dashboard',
         component: () => import(/* webpackChunkName: "Dashboard" */ '@/views/DashboardView.vue'),
 
       },
       {
-        path: '/productInfo',
+        path: 'productInfo',
         name: 'productInfo',
         component: () => import(/* webpackChunkName: "ProductInfo" */ '@/views/ProductInfoView.vue'),
 
       },
       {
-        path: '/userInfo',
+        path: 'userInfo',
         name: 'userInfo',
         component: () => import(/* webpackChunkName: "UserInfo" */ '@/views/UserInfoView.vue'),
 
@@ -105,10 +105,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  // history: createWebHistory(process.env.NODE_ENV === "production" ? "/e-commerce/" : "/"),
-  history: createWebHistory(import.meta.env.BASE_URL),
-
-
+ history: createWebHistory(process.env.NODE_ENV === "production" ? "/e-commerce/" : "/"),
  routes,
  scrollBehavior(to, from, savedPosition) {
    if (savedPosition) {

@@ -7,7 +7,6 @@
 // Components
 //import { registerSW } from 'virtual:pwa-register'
 
-
 import App from './App.vue'
 
 // Composables
