@@ -1,0 +1,795 @@
+{
+  "src/assets/images/team/2.jpg": {
+    "file": "assets/2.c25a1509.jpg",
+    "src": "src/assets/images/team/2.jpg"
+  },
+  "src/assets/images/sponser/google.svg": {
+    "file": "assets/google.6bb663a2.svg",
+    "src": "src/assets/images/sponser/google.svg"
+  },
+  "src/assets/images/sponser/facebook.svg": {
+    "file": "assets/facebook.2c11b373.svg",
+    "src": "src/assets/images/sponser/facebook.svg"
+  },
+  "src/assets/images/sponser/microsoft.svg": {
+    "file": "assets/microsoft.0bc609e3.svg",
+    "src": "src/assets/images/sponser/microsoft.svg"
+  },
+  "src/assets/images/sponser/ibm.svg": {
+    "file": "assets/ibm.65d9f332.svg",
+    "src": "src/assets/images/sponser/ibm.svg"
+  },
+  "src/assets/map-image.png": {
+    "file": "assets/map-image.ac8a5781.png",
+    "src": "src/assets/map-image.png"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot": {
+    "file": "assets/materialdesignicons-webfont.861aea05.eot",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2": {
+    "file": "assets/materialdesignicons-webfont.e52d60f6.woff2",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff": {
+    "file": "assets/materialdesignicons-webfont.48d3eec6.woff",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf": {
+    "file": "assets/materialdesignicons-webfont.bd725a7a.ttf",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf"
+  },
+  "index.html": {
+    "file": "assets/index.c425251d.js",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "_webfontloader.b777d690.js",
+      "src/layouts/default/Default.vue",
+      "src/views/HomeView.vue",
+      "src/views/AboutView.vue",
+      "src/views/ContactView.vue",
+      "src/views/ProductsView.vue",
+      "src/views/SingleProductView.vue",
+      "src/views/CartView.vue",
+      "src/views/LoginView.vue",
+      "src/views/ProfileView.vue",
+      "src/views/NotFoundView.vue",
+      "src/layouts/app-free/AppbarFree.vue",
+      "src/views/DashboardView.vue",
+      "src/views/ProductInfoView.vue",
+      "src/views/UserInfoView.vue"
+    ],
+    "css": [
+      "assets/index.f1f6ccc6.css"
+    ],
+    "assets": [
+      "assets/materialdesignicons-webfont.861aea05.eot",
+      "assets/materialdesignicons-webfont.e52d60f6.woff2",
+      "assets/materialdesignicons-webfont.48d3eec6.woff",
+      "assets/materialdesignicons-webfont.bd725a7a.ttf"
+    ]
+  },
+  "_webfontloader.b777d690.js": {
+    "file": "assets/webfontloader.b777d690.js",
+    "isDynamicEntry": true
+  },
+  "src/layouts/default/Default.vue": {
+    "file": "assets/Default.b6dcd0bc.js",
+    "src": "src/layouts/default/Default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_Cart.316be8a5.js",
+      "_router.0f5691bf.js",
+      "_VSpacer.ca4c9453.js",
+      "_VBtn.af61db43.js",
+      "_index.2c031926.js",
+      "_layout.be3bc481.js",
+      "_VMain.f2ed4f40.js",
+      "_VApp.335b02c9.js",
+      "_ssrBoot.8aa9b162.js"
+    ],
+    "css": [
+      "assets/Default.064a5063.css"
+    ]
+  },
+  "_VApp.335b02c9.js": {
+    "file": "assets/VApp.335b02c9.js",
+    "imports": [
+      "_layout.be3bc481.js",
+      "index.html",
+      "_router.0f5691bf.js"
+    ],
+    "css": [
+      "assets/VApp.3ff5ba67.css"
+    ]
+  },
+  "_router.0f5691bf.js": {
+    "file": "assets/router.0f5691bf.js",
+    "imports": [
+      "index.html"
+    ],
+    "css": [
+      "assets/router.4c401824.css"
+    ]
+  },
+  "_VMain.f2ed4f40.js": {
+    "file": "assets/VMain.f2ed4f40.js",
+    "imports": [
+      "_router.0f5691bf.js",
+      "_layout.be3bc481.js",
+      "_ssrBoot.8aa9b162.js",
+      "index.html"
+    ],
+    "css": [
+      "assets/VMain.d6216866.css"
+    ]
+  },
+  "_layout.be3bc481.js": {
+    "file": "assets/layout.be3bc481.js",
+    "imports": [
+      "_router.0f5691bf.js",
+      "index.html"
+    ]
+  },
+  "_Cart.316be8a5.js": {
+    "file": "assets/Cart.316be8a5.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_VSpacer.ca4c9453.js": {
+    "file": "assets/VSpacer.ca4c9453.js",
+    "imports": [
+      "_router.0f5691bf.js"
+    ]
+  },
+  "_VBtn.af61db43.js": {
+    "file": "assets/VBtn.af61db43.js",
+    "imports": [
+      "index.html",
+      "_router.0f5691bf.js"
+    ],
+    "css": [
+      "assets/VBtn.02dcb2cf.css"
+    ]
+  },
+  "_ssrBoot.8aa9b162.js": {
+    "file": "assets/ssrBoot.8aa9b162.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_index.2c031926.js": {
+    "file": "assets/index.2c031926.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/views/HomeView.vue": {
+    "file": "assets/HomeView.b9cdf8bb.js",
+    "src": "src/views/HomeView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_HeroSection.ffc420f0.js",
+      "_router.0f5691bf.js",
+      "_VRow.23be7cfd.js",
+      "index.html",
+      "_VContainer.69f39951.js",
+      "_index.2c031926.js",
+      "_delay.d1481ba5.js",
+      "_VCard.32e2723b.js",
+      "_VBtn.af61db43.js",
+      "_TheFooter.94655424.js",
+      "_TeamSection.7f7fb6bc.js",
+      "_VAvatar.8c3b6495.js",
+      "_VForm.0227182e.js",
+      "_VTextField.cc35d9c4.js",
+      "_VTextarea.d5904cc2.js",
+      "_getScrollParent.ff47518e.js",
+      "_VSpacer.ca4c9453.js",
+      "_layout.be3bc481.js",
+      "_forwardRefs.54bb1675.js"
+    ],
+    "css": [
+      "assets/HomeView.ee8b37be.css"
+    ],
+    "assets": [
+      "assets/microsoft.0bc609e3.svg",
+      "assets/google.6bb663a2.svg",
+      "assets/facebook.2c11b373.svg",
+      "assets/ibm.65d9f332.svg",
+      "assets/map-image.ac8a5781.png"
+    ]
+  },
+  "_HeroSection.ffc420f0.js": {
+    "file": "assets/HeroSection.ffc420f0.js",
+    "imports": [
+      "_router.0f5691bf.js",
+      "index.html",
+      "_VRow.23be7cfd.js",
+      "_VBtn.af61db43.js",
+      "_getScrollParent.ff47518e.js"
+    ],
+    "css": [
+      "assets/HeroSection.13dcffde.css"
+    ]
+  },
+  "_TheFooter.94655424.js": {
+    "file": "assets/TheFooter.94655424.js",
+    "imports": [
+      "_router.0f5691bf.js",
+      "_VCard.32e2723b.js",
+      "_VSpacer.ca4c9453.js",
+      "_VBtn.af61db43.js",
+      "_VContainer.69f39951.js",
+      "_layout.be3bc481.js",
+      "index.html"
+    ],
+    "css": [
+      "assets/TheFooter.181ba497.css"
+    ]
+  },
+  "_TeamSection.7f7fb6bc.js": {
+    "file": "assets/TeamSection.7f7fb6bc.js",
+    "imports": [
+      "index.html",
+      "_router.0f5691bf.js",
+      "_VContainer.69f39951.js",
+      "_VRow.23be7cfd.js"
+    ],
+    "css": [
+      "assets/TeamSection.26d90ecd.css"
+    ]
+  },
+  "_VRow.23be7cfd.js": {
+    "file": "assets/VRow.23be7cfd.js",
+    "imports": [
+      "_VCard.32e2723b.js",
+      "_router.0f5691bf.js",
+      "index.html"
+    ]
+  },
+  "_VContainer.69f39951.js": {
+    "file": "assets/VContainer.69f39951.js",
+    "imports": [
+      "_VCard.32e2723b.js",
+      "_router.0f5691bf.js",
+      "index.html"
+    ]
+  },
+  "_VCard.32e2723b.js": {
+    "file": "assets/VCard.32e2723b.js",
+    "imports": [
+      "index.html",
+      "_router.0f5691bf.js",
+      "_VAvatar.8c3b6495.js"
+    ],
+    "css": [
+      "assets/VCard.7a92c3d9.css"
+    ]
+  },
+  "_VAvatar.8c3b6495.js": {
+    "file": "assets/VAvatar.8c3b6495.js",
+    "imports": [
+      "_router.0f5691bf.js",
+      "index.html"
+    ],
+    "css": [
+      "assets/VAvatar.ab88a885.css"
+    ]
+  },
+  "_VForm.0227182e.js": {
+    "file": "assets/VForm.0227182e.js",
+    "imports": [
+      "_VTextField.cc35d9c4.js",
+      "_forwardRefs.54bb1675.js",
+      "index.html",
+      "_router.0f5691bf.js"
+    ]
+  },
+  "_VTextField.cc35d9c4.js": {
+    "file": "assets/VTextField.cc35d9c4.js",
+    "imports": [
+      "index.html",
+      "_index.2c031926.js",
+      "_router.0f5691bf.js",
+      "_forwardRefs.54bb1675.js"
+    ],
+    "css": [
+      "assets/VTextField.69a07c32.css"
+    ]
+  },
+  "_VTextarea.d5904cc2.js": {
+    "file": "assets/VTextarea.d5904cc2.js",
+    "imports": [
+      "index.html",
+      "_VTextField.cc35d9c4.js",
+      "_router.0f5691bf.js",
+      "_forwardRefs.54bb1675.js"
+    ],
+    "css": [
+      "assets/VTextarea.13bfb6d6.css"
+    ]
+  },
+  "_getScrollParent.ff47518e.js": {
+    "file": "assets/getScrollParent.ff47518e.js"
+  },
+  "_delay.d1481ba5.js": {
+    "file": "assets/delay.d1481ba5.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_forwardRefs.54bb1675.js": {
+    "file": "assets/forwardRefs.54bb1675.js"
+  },
+  "src/views/AboutView.vue": {
+    "file": "assets/AboutView.862238e6.js",
+    "src": "src/views/AboutView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_HeroSection.ffc420f0.js",
+      "_TheFooter.94655424.js",
+      "_TeamSection.7f7fb6bc.js",
+      "_router.0f5691bf.js",
+      "index.html",
+      "_VRow.23be7cfd.js",
+      "_VCard.32e2723b.js",
+      "_VAvatar.8c3b6495.js",
+      "_VBtn.af61db43.js",
+      "_getScrollParent.ff47518e.js",
+      "_VSpacer.ca4c9453.js",
+      "_VContainer.69f39951.js",
+      "_layout.be3bc481.js"
+    ]
+  },
+  "src/views/ContactView.vue": {
+    "file": "assets/ContactView.774f1cf0.js",
+    "src": "src/views/ContactView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_HeroSection.ffc420f0.js",
+      "index.html",
+      "_router.0f5691bf.js",
+      "_TheFooter.94655424.js",
+      "_VContainer.69f39951.js",
+      "_VRow.23be7cfd.js",
+      "_VForm.0227182e.js",
+      "_VTextField.cc35d9c4.js",
+      "_VTextarea.d5904cc2.js",
+      "_VBtn.af61db43.js",
+      "_VCard.32e2723b.js",
+      "_getScrollParent.ff47518e.js",
+      "_VSpacer.ca4c9453.js",
+      "_layout.be3bc481.js",
+      "_forwardRefs.54bb1675.js",
+      "_index.2c031926.js",
+      "_VAvatar.8c3b6495.js"
+    ],
+    "css": [
+      "assets/ContactView.3b6b3106.css"
+    ],
+    "assets": [
+      "assets/map-image.ac8a5781.png"
+    ]
+  },
+  "src/views/ProductsView.vue": {
+    "file": "assets/ProductsView.ab6517ca.js",
+    "src": "src/views/ProductsView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_HeroSection.ffc420f0.js",
+      "_AdminProducts.bc7adec0.js",
+      "index.html",
+      "_router.0f5691bf.js",
+      "_VRow.23be7cfd.js",
+      "_VTextField.cc35d9c4.js",
+      "_VList.b71c344a.js",
+      "_forwardRefs.54bb1675.js",
+      "_VOverlay.856c1f00.js",
+      "_VMenu.df89645e.js",
+      "_VBtn.af61db43.js",
+      "_index.2c031926.js",
+      "_VAvatar.8c3b6495.js",
+      "_VContainer.69f39951.js",
+      "_VCard.32e2723b.js",
+      "_TheFooter.94655424.js",
+      "_getScrollParent.ff47518e.js",
+      "_VDivider.6d2ff862.js",
+      "_delay.d1481ba5.js",
+      "_lazy.0a00ac8f.js",
+      "_VSpacer.ca4c9453.js",
+      "_layout.be3bc481.js"
+    ],
+    "css": [
+      "assets/ProductsView.7c6c841c.css"
+    ]
+  },
+  "_AdminProducts.bc7adec0.js": {
+    "file": "assets/AdminProducts.bc7adec0.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_VList.b71c344a.js": {
+    "file": "assets/VList.b71c344a.js",
+    "imports": [
+      "index.html",
+      "_index.2c031926.js",
+      "_router.0f5691bf.js",
+      "_VAvatar.8c3b6495.js",
+      "_VDivider.6d2ff862.js"
+    ],
+    "css": [
+      "assets/VList.95026ec9.css"
+    ]
+  },
+  "_VOverlay.856c1f00.js": {
+    "file": "assets/VOverlay.856c1f00.js",
+    "imports": [
+      "index.html",
+      "_forwardRefs.54bb1675.js",
+      "_delay.d1481ba5.js",
+      "_router.0f5691bf.js",
+      "_lazy.0a00ac8f.js",
+      "_getScrollParent.ff47518e.js"
+    ],
+    "css": [
+      "assets/VOverlay.72fa3373.css"
+    ]
+  },
+  "_VMenu.df89645e.js": {
+    "file": "assets/VMenu.df89645e.js",
+    "imports": [
+      "_forwardRefs.54bb1675.js",
+      "index.html",
+      "_VOverlay.856c1f00.js",
+      "_router.0f5691bf.js"
+    ],
+    "css": [
+      "assets/VMenu.10bfe1de.css"
+    ]
+  },
+  "_lazy.0a00ac8f.js": {
+    "file": "assets/lazy.0a00ac8f.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_VDivider.6d2ff862.js": {
+    "file": "assets/VDivider.6d2ff862.js",
+    "imports": [
+      "index.html",
+      "_router.0f5691bf.js"
+    ],
+    "css": [
+      "assets/VDivider.5d6d66e0.css"
+    ]
+  },
+  "src/views/SingleProductView.vue": {
+    "file": "assets/SingleProductView.4be162dd.js",
+    "src": "src/views/SingleProductView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_Cart.316be8a5.js",
+      "_TheFooter.94655424.js",
+      "_router.0f5691bf.js",
+      "_VRow.23be7cfd.js",
+      "_VBtn.af61db43.js",
+      "_lazy.0a00ac8f.js",
+      "_ssrBoot.8aa9b162.js",
+      "_VCard.32e2723b.js",
+      "_VDivider.6d2ff862.js",
+      "_VSpacer.ca4c9453.js",
+      "_VContainer.69f39951.js",
+      "_layout.be3bc481.js",
+      "_VAvatar.8c3b6495.js"
+    ],
+    "css": [
+      "assets/SingleProductView.3c236054.css"
+    ]
+  },
+  "src/views/CartView.vue": {
+    "file": "assets/CartView.eb095153.js",
+    "src": "src/views/CartView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_Cart.316be8a5.js",
+      "_router.0f5691bf.js",
+      "_VContainer.69f39951.js",
+      "_VRow.23be7cfd.js",
+      "_VCard.32e2723b.js",
+      "_VBtn.af61db43.js",
+      "_VAvatar.8c3b6495.js"
+    ]
+  },
+  "src/views/LoginView.vue": {
+    "file": "assets/LoginView.d20eb4ae.js",
+    "src": "src/views/LoginView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_TheFooter.94655424.js",
+      "_router.0f5691bf.js",
+      "_VContainer.69f39951.js",
+      "_VRow.23be7cfd.js",
+      "_VForm.0227182e.js",
+      "_VTextField.cc35d9c4.js",
+      "_VBtn.af61db43.js",
+      "_VCard.32e2723b.js",
+      "_VAvatar.8c3b6495.js",
+      "_VSpacer.ca4c9453.js",
+      "_layout.be3bc481.js",
+      "_forwardRefs.54bb1675.js",
+      "_index.2c031926.js"
+    ],
+    "css": [
+      "assets/LoginView.170edd40.css"
+    ]
+  },
+  "src/views/ProfileView.vue": {
+    "file": "assets/ProfileView.5c2aa8ad.js",
+    "src": "src/views/ProfileView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_router.0f5691bf.js",
+      "_VCard.32e2723b.js",
+      "_VContainer.69f39951.js",
+      "_VLayout.1869e111.js",
+      "_VRow.23be7cfd.js",
+      "_VAvatar.8c3b6495.js",
+      "_VBtn.af61db43.js",
+      "_VList.b71c344a.js",
+      "_VDivider.6d2ff862.js",
+      "_layout.be3bc481.js",
+      "_index.2c031926.js"
+    ],
+    "css": [
+      "assets/ProfileView.b3d8d81f.css"
+    ],
+    "assets": [
+      "assets/2.c25a1509.jpg"
+    ]
+  },
+  "_VLayout.1869e111.js": {
+    "file": "assets/VLayout.1869e111.js",
+    "imports": [
+      "_layout.be3bc481.js",
+      "index.html",
+      "_router.0f5691bf.js"
+    ],
+    "css": [
+      "assets/VLayout.529df013.css"
+    ]
+  },
+  "src/views/NotFoundView.vue": {
+    "file": "assets/NotFoundView.9ffa3648.js",
+    "src": "src/views/NotFoundView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_router.0f5691bf.js",
+      "_VContainer.69f39951.js",
+      "_VLayout.1869e111.js",
+      "_VCard.32e2723b.js",
+      "_VBtn.af61db43.js",
+      "index.html",
+      "_layout.be3bc481.js",
+      "_VAvatar.8c3b6495.js"
+    ],
+    "css": [
+      "assets/NotFoundView.185e101b.css"
+    ]
+  },
+  "src/layouts/app-free/AppbarFree.vue": {
+    "file": "assets/AppbarFree.7de38b31.js",
+    "src": "src/layouts/app-free/AppbarFree.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_router.0f5691bf.js",
+      "_VBtn.af61db43.js",
+      "_VList.b71c344a.js",
+      "_VDivider.6d2ff862.js",
+      "_layout.be3bc481.js",
+      "_ssrBoot.8aa9b162.js",
+      "_VApp.335b02c9.js",
+      "_VMain.f2ed4f40.js",
+      "_index.2c031926.js",
+      "_VAvatar.8c3b6495.js"
+    ],
+    "css": [
+      "assets/AppbarFree.05293884.css"
+    ]
+  },
+  "src/views/DashboardView.vue": {
+    "file": "assets/DashboardView.5d41525c.js",
+    "src": "src/views/DashboardView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_router.0f5691bf.js",
+      "index.html",
+      "_VMenu.df89645e.js",
+      "_VBtn.af61db43.js",
+      "_VRow.23be7cfd.js",
+      "_VCard.32e2723b.js",
+      "_VContainer.69f39951.js",
+      "_VMain.f2ed4f40.js",
+      "_VLayout.1869e111.js",
+      "_forwardRefs.54bb1675.js",
+      "_VOverlay.856c1f00.js",
+      "_delay.d1481ba5.js",
+      "_lazy.0a00ac8f.js",
+      "_getScrollParent.ff47518e.js",
+      "_VAvatar.8c3b6495.js",
+      "_layout.be3bc481.js",
+      "_ssrBoot.8aa9b162.js"
+    ]
+  },
+  "src/views/ProductInfoView.vue": {
+    "file": "assets/ProductInfoView.6e28ff99.js",
+    "src": "src/views/ProductInfoView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_AdminProducts.bc7adec0.js",
+      "index.html",
+      "_router.0f5691bf.js",
+      "_VTextField.cc35d9c4.js",
+      "_VBtn.af61db43.js",
+      "_VForm.0227182e.js",
+      "_VCard.32e2723b.js",
+      "_VContainer.69f39951.js",
+      "_VRow.23be7cfd.js",
+      "_VSpacer.ca4c9453.js",
+      "_VOverlay.856c1f00.js",
+      "_forwardRefs.54bb1675.js",
+      "_VMain.f2ed4f40.js",
+      "_VLayout.1869e111.js",
+      "_index.2c031926.js",
+      "_VAvatar.8c3b6495.js",
+      "_delay.d1481ba5.js",
+      "_lazy.0a00ac8f.js",
+      "_getScrollParent.ff47518e.js",
+      "_layout.be3bc481.js",
+      "_ssrBoot.8aa9b162.js"
+    ],
+    "css": [
+      "assets/ProductInfoView.d5cc35a6.css"
+    ]
+  },
+  "src/views/UserInfoView.vue": {
+    "file": "assets/UserInfoView.1c1b5ba6.js",
+    "src": "src/views/UserInfoView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_router.0f5691bf.js",
+      "_VCard.32e2723b.js",
+      "_VMain.f2ed4f40.js",
+      "_VRow.23be7cfd.js",
+      "_VLayout.1869e111.js",
+      "_VAvatar.8c3b6495.js",
+      "_layout.be3bc481.js",
+      "_ssrBoot.8aa9b162.js"
+    ],
+    "css": [
+      "assets/UserInfoView.4daed14f.css"
+    ]
+  },
+  "TheFooter.css": {
+    "file": "assets/TheFooter.181ba497.css",
+    "src": "TheFooter.css"
+  },
+  "VMain.css": {
+    "file": "assets/VMain.d6216866.css",
+    "src": "VMain.css"
+  },
+  "src/views/NotFoundView.css": {
+    "file": "assets/NotFoundView.185e101b.css",
+    "src": "src/views/NotFoundView.css"
+  },
+  "src/views/SingleProductView.css": {
+    "file": "assets/SingleProductView.3c236054.css",
+    "src": "src/views/SingleProductView.css"
+  },
+  "VAvatar.css": {
+    "file": "assets/VAvatar.ab88a885.css",
+    "src": "VAvatar.css"
+  },
+  "VApp.css": {
+    "file": "assets/VApp.3ff5ba67.css",
+    "src": "VApp.css"
+  },
+  "src/views/UserInfoView.css": {
+    "file": "assets/UserInfoView.4daed14f.css",
+    "src": "src/views/UserInfoView.css"
+  },
+  "VLayout.css": {
+    "file": "assets/VLayout.529df013.css",
+    "src": "VLayout.css"
+  },
+  "src/views/LoginView.css": {
+    "file": "assets/LoginView.170edd40.css",
+    "src": "src/views/LoginView.css"
+  },
+  "src/views/ContactView.css": {
+    "file": "assets/ContactView.3b6b3106.css",
+    "src": "src/views/ContactView.css"
+  },
+  "src/views/HomeView.css": {
+    "file": "assets/HomeView.ee8b37be.css",
+    "src": "src/views/HomeView.css"
+  },
+  "src/layouts/default/Default.css": {
+    "file": "assets/Default.064a5063.css",
+    "src": "src/layouts/default/Default.css"
+  },
+  "VDivider.css": {
+    "file": "assets/VDivider.5d6d66e0.css",
+    "src": "VDivider.css"
+  },
+  "HeroSection.css": {
+    "file": "assets/HeroSection.13dcffde.css",
+    "src": "HeroSection.css"
+  },
+  "TeamSection.css": {
+    "file": "assets/TeamSection.26d90ecd.css",
+    "src": "TeamSection.css"
+  },
+  "VMenu.css": {
+    "file": "assets/VMenu.10bfe1de.css",
+    "src": "VMenu.css"
+  },
+  "src/views/ProfileView.css": {
+    "file": "assets/ProfileView.b3d8d81f.css",
+    "src": "src/views/ProfileView.css"
+  },
+  "VOverlay.css": {
+    "file": "assets/VOverlay.72fa3373.css",
+    "src": "VOverlay.css"
+  },
+  "src/layouts/app-free/AppbarFree.css": {
+    "file": "assets/AppbarFree.05293884.css",
+    "src": "src/layouts/app-free/AppbarFree.css"
+  },
+  "router.css": {
+    "file": "assets/router.4c401824.css",
+    "src": "router.css"
+  },
+  "VTextField.css": {
+    "file": "assets/VTextField.69a07c32.css",
+    "src": "VTextField.css"
+  },
+  "src/views/ProductInfoView.css": {
+    "file": "assets/ProductInfoView.d5cc35a6.css",
+    "src": "src/views/ProductInfoView.css"
+  },
+  "VList.css": {
+    "file": "assets/VList.95026ec9.css",
+    "src": "VList.css"
+  },
+  "src/views/ProductsView.css": {
+    "file": "assets/ProductsView.7c6c841c.css",
+    "src": "src/views/ProductsView.css"
+  },
+  "VTextarea.css": {
+    "file": "assets/VTextarea.13bfb6d6.css",
+    "src": "VTextarea.css"
+  },
+  "VCard.css": {
+    "file": "assets/VCard.7a92c3d9.css",
+    "src": "VCard.css"
+  },
+  "VBtn.css": {
+    "file": "assets/VBtn.02dcb2cf.css",
+    "src": "VBtn.css"
+  },
+  "index.css": {
+    "file": "assets/index.f1f6ccc6.css",
+    "src": "index.css"
+  }
+}
