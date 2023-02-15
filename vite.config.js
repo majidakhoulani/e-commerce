@@ -79,7 +79,7 @@ export default defineConfig({
   },
   build: {
     chunkSizeWarningLimit: 1600,
-    manifest:true
+    // manifest:true
   },
   server: {
     port: 3000,
