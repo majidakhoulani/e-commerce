@@ -53,7 +53,7 @@
 
         teamList: [{
                   id: 1,
-                  src: '/assets/images/team/team1.jpg',
+                  src: '../src/assets/images/team/team1.jpg',
                   title: 'Roduan Kareem Aldeen',
                   explain: 'FullStack Developer',
                   href:'https://github.com/RoduanKD'
@@ -61,14 +61,14 @@
               },
               {
                   id: 2,
-                  src: '/assets/images/team/team3.jpg',
+                  src: '../src/assets/images/team/team3.jpg',
                   title: 'Majida Khoulani',
                   explain: 'Frontend Developer',
                   href:'https://github.com/majidakhoulani'
               },
               {
                   id: 3,
-                  src: '/assets/images/team/team2.jpg',
+                  src: '../src/assets/images/team/team2.jpg',
                   title: 'Taiseer Almedani',
                   explain: 'FullStack Developer',
                   href:'https://github.com/TaiseerAlmedani'

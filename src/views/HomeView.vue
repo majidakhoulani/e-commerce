@@ -1,5 +1,5 @@
 <template>
- <HeroSection title="Welcome To Our Studio!" src="/assets/images/header-bg.jpg">
+ <HeroSection title="Welcome To Our Studio!" src="../src/assets/images/header-bg.jpg">
  </HeroSection>
 <ServiceSection/>
  <PortfolioSection/>

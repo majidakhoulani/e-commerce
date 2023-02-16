@@ -55,62 +55,62 @@ export default{
       portfolioList: [
       {
                   id: 1,
-                  src: '/assets/images/portfolio/Seo1.jpg',
+                  src: '../src/assets/images/portfolio/Seo1.jpg',
                   title: 'SEO Project',
                   explain: 'Website',
                   href:'https://majidakhoulani.github.io/seo_project/'
               },
               {
                   id: 2,
-                  src: '/assets/images/portfolio/krypto.jpg',
+                  src: '../src/assets/images/portfolio/krypto.jpg',
                   title: 'krypton Project',
                   explain: ' Website',
                   href:'https://majidakhoulani.github.io/Krypton-Api-Vue/'
               },
               {
                   id: 3,
-                  src: '/assets/images/portfolio/vpn.jpg',
+                  src: '../src/assets/images/portfolio/vpn.jpg',
                   title: 'Bulma Project',
                   explain: 'Website',
                   href:'https://majidakhoulani.github.io/fresh_bulma_project/'
               },
         {
                   id: 4,
-                  src: '/assets/images/portfolio/1.jpg',
+                  src: '../src/assets/images/portfolio/1.jpg',
                   title: 'Threads',
                   explain: 'Illustration',
                   href:''
               },
               {
                   id: 5,
-                  src: '/assets/images/portfolio/2.jpg',
+                  src: '../src/assets/images/portfolio/2.jpg',
                   title: 'Explore',
                   explain: 'Graphic Design',
                   href:''
               },
               {
                   id: 6,
-                  src: '../public/assets/images/portfolio/3.jpg',
+                  src: '../src/assets/images/portfolio/3.jpg',
                   title: 'Finish',
                   explain: 'Identity',
                   href:''
               },
               {
                   id: 7,
-                  src: '/assets/images/portfolio/4.jpg',
+                  src: '../src/assets/images/portfolio/4.jpg',
                   title: 'Southwest',
                   explain: 'Website Design'
 
               },
               {
                   id: 8,
-                  src: '/assets/images/portfolio/6.jpg',
+                  src: '../src/assets/images/portfolio/6.jpg',
                   title: 'Window',
                   explain: 'Photography'
               },
               {
                   id: 9,
-                  src: '/assets/images/portfolio/5.jpg',
+                  src: '../src/assets/images/portfolio/5.jpg',
                   title: 'Lines',
                   explain: 'Branding'
               },

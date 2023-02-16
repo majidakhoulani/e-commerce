@@ -1,5 +1,5 @@
 <template>
-    <HeroSection   src="/assets/images/contacts.jpg"/>
+    <HeroSection   src="../src/assets/images/contacts.jpg"/>
     <section class="location text-center pt-16 pb-16">
         <div class="loction-title pt-6">
             <h1 class="text-h4 font-weight-bold pb-2 text-black">Our Location</h1>
