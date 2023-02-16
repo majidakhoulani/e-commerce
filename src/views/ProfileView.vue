@@ -14,7 +14,7 @@
                             <v-card class="mx-auto " width="300" height="400" color="rgb(255,235,238,1)">
 
                                 <v-avatar  size="150" rounded="50" class="ma-4">
-                                    <v-img cover src="../assets/images/team/2.jpg"></v-img>
+                                    <v-img cover src="/assets/images/team/2.jpg"></v-img>
                                 </v-avatar>
                                 <v-card-item>
 

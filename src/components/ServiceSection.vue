@@ -27,24 +27,25 @@
   </section>
 </template>
 <script>
+
 export default{
   data(){
     return{
       serviceList: [{
                   id: 1,
-                  src: '../src/assets/images/services/service1.jpg',
+                  src: '/assets/images/services/service1.jpg',
                   title: 'E-Commerce',
                   explain: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
               },
               {
                   id: 2,
-                  src: '../src/assets/images/services/service2.jpg',
+                  src: '/assets/images/services/service2.jpg',
                   title: 'Responsive Design',
                   explain: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
               },
               {
                   id: 3,
-                  src: '../src/assets/images/services/service3.jpg',
+                  src: '/assets/images/services/service3.jpg',
                   title: 'Web Security',
                   explain: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
               }

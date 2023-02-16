@@ -25,7 +25,7 @@
 export default{
   props:{
   title:'Welcome To Our Studio!',
-   src:'../src/assets/images/header-bg.jpg'
+   src:'/assets/images/header-bg.jpg'
 },
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <HeroSection  title="Show Our Products" src="../assets/images/products.jpg"/>
+  <HeroSection  title="Show Our Products" src="/assets/images/products.jpg"/>
   <ProductsSection />
     <TheFooter/>
 </template>
