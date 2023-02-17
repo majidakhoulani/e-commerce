@@ -12,7 +12,7 @@
                   <v-col v-for="team in teamList" :key="team.id" cols="12" sm="4"
                       class="d-flex  mb-6 justify-space-around">
                       <div>
-                          <v-img :src="team.src" height="200px" width="200px" cover class="rounded-circle"
+                          <v-img  loading="lazy" :src="team.src" height="200px" width="200px" cover class="rounded-circle"
                               style="border:8px solid rgb(193 193 193 / 66%);"></v-img>
                           <h3 class="mt-6 font-weight-black" color="#212529">{{ team . title }}</h3>
                           <p class="mt-2 mb-4" color="#6c757d">{{ team . explain }}</p>
@@ -53,7 +53,7 @@
 
         teamList: [{
                   id: 1,
-                  src: '/assets/images/team/team1.jpg',
+                  src: '/assets/images/team/1.jpg',
                   title: 'Roduan Kareem Aldeen',
                   explain: 'FullStack Developer',
                   href:'https://github.com/RoduanKD'
@@ -61,14 +61,14 @@
               },
               {
                   id: 2,
-                  src: '/assets/images/team/team3.jpg',
+                  src: '/assets/images/team/3.jpg',
                   title: 'Majida Khoulani',
                   explain: 'Frontend Developer',
                   href:'https://github.com/majidakhoulani'
               },
               {
                   id: 3,
-                  src: '/assets/images/team/team2.jpg',
+                  src: '/assets/images/team/2.jpg',
                   title: 'Taiseer Almedani',
                   explain: 'FullStack Developer',
                   href:'https://github.com/TaiseerAlmedani'
