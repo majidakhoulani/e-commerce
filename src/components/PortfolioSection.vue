@@ -14,7 +14,7 @@
                   <v-col  cols="12"  class="d-flex  mb-8 justify-space-around"
                       >
                       <v-hover v-slot="{ isHovering, props }">
-                          <v-card class="ma-2 pa-2"
+                          <v-card
                               v-bind="props">
                               <v-img src="/assets/images/portfolio/Seo1.jpg" height="200px" width="300px" cover> </v-img>
 
@@ -42,7 +42,7 @@
             </div>
           </v-expand-transition>
                           </v-card>
-                          <v-card class="ma-2 pa-2"
+                          <v-card
                               v-bind="props">
                               <v-img src="/assets/images/portfolio/krypto.jpg" height="200px" width="300px" cover> </v-img>
 
@@ -70,7 +70,7 @@
             </div>
           </v-expand-transition>
                           </v-card>
-                          <v-card class="ma-2 pa-2"
+                          <v-card
                               v-bind="props">
                               <v-img src="/assets/images/portfolio/vpn.jpg"  height="200px" width="300px" cover> </v-img>
 
@@ -271,7 +271,7 @@
             </div>
           </v-expand-transition>
                           </v-card> -->
-                          <v-card class="ma-2 pa-2"
+                          <v-card
                               v-bind="props">
                               <v-img src="/assets/images/portfolio/1.jpg" height="200px" width="300px" cover> </v-img>
 
@@ -281,7 +281,7 @@
                               </v-card-title>
 
                               <v-card-subtitle class="pb-6">
-                                 WwbSitw Design
+                                 Website 
                               </v-card-subtitle>
                               <v-expand-transition>
             <div
@@ -299,7 +299,7 @@
             </div>
           </v-expand-transition>
                           </v-card>
-                          <v-card class="ma-2 pa-2"
+                          <v-card
                               v-bind="props">
                               <v-img src="/assets/images/portfolio/2.jpg" height="200px" width="300px" cover> </v-img>
 
@@ -327,8 +327,8 @@
             </div>
           </v-expand-transition>
                           </v-card>
-                          <!-- class="mx-auto" max-width="344" -->
-                          <v-card  class="ma-2 pa-2"
+                          <!-- class="mx-auto" max-width="344"  class="ma-2 pa-2" -->
+                          <v-card
                               v-bind="props">
                               <v-img src="/assets/images/portfolio/3.jpg" height="200px" width="300px" cover> </v-img>
 
