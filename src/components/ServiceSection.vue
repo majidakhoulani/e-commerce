@@ -23,7 +23,7 @@
                       </v-sheet>
                       <v-sheet class="ma-2 pa-2">
                         <!-- :aspect-ratio="aspectRatio" -->
-                          <v-img class="ma-auto"  src="/assets/images/services/service2.jpg" cover
+                          <v-img class="ma-auto"  src="/assets/images/services/service1.jpg" cover
                               width="150" height="150"></v-img>
                           <h4 class="subheading pa-4 font-weight-bold">Responsive Design</h4>
                           <p class="text-medium-emphasis">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
