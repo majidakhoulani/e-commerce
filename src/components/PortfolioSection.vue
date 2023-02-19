@@ -35,7 +35,7 @@
             <v-btn   class="mx-4"
          color="#000"
           icon
-          href="https://majidakhoulani.github.io/seo_project/"
+          href="https://majidakhoulani.github.io/seo_project/" target="_blank"
          >
           <v-icon size="24px" color="#fff" >mdi-github</v-icon>
         </v-btn>
@@ -63,7 +63,7 @@
             <v-btn   class="mx-4"
          color="#000"
           icon
-          href="https://majidakhoulani.github.io/Krypton-Api-Vue/"
+          href="https://majidakhoulani.github.io/Krypton-Api-Vue/"  target="_blank"
          >
           <v-icon size="24px" color="#fff" >mdi-github</v-icon>
         </v-btn>
@@ -91,7 +91,7 @@
             <v-btn   class="mx-4"
          color="#000"
           icon
-          href="https://majidakhoulani.github.io/fresh_bulma_project/"
+          href="https://majidakhoulani.github.io/fresh_bulma_project/" target="_blank"
          >
           <v-icon size="24px" color="#fff" >mdi-github</v-icon>
         </v-btn>
@@ -292,7 +292,7 @@
             <v-btn   class="mx-4"
          color="#000"
           icon
-          href="#"
+          href="#" target="_blank"
          >
           <v-icon size="24px" color="#fff" >mdi-github</v-icon>
         </v-btn>
@@ -320,7 +320,7 @@
             <v-btn   class="mx-4"
          color="#000"
           icon
-          href="#"
+          href="#" target="_blank"
          >
           <v-icon size="24px" color="#fff" >mdi-github</v-icon>
         </v-btn>
@@ -349,7 +349,7 @@
             <v-btn   class="mx-4"
          color="#000"
           icon
-          href="#"
+          href="#" target="_blank"
          >
           <v-icon size="24px" color="#fff" >mdi-github</v-icon>
         </v-btn>
