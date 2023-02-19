@@ -10,20 +10,21 @@
       <div class="portfolio-content mt-12 ">
           <v-container>
               <v-row no-gutters>
-                  <v-col v-for="portfoli in  portfolioList " :key="portfoli.id" cols="12" sm="4"
-                      class="mb-8">
+                <!-- v-for="portfoli in  portfolioList " :key="portfoli.id" sm="4"-->
+                  <v-col  cols="12"  class="d-flex  mb-8 justify-space-around"
+                      >
                       <v-hover v-slot="{ isHovering, props }">
-                          <v-card class="mx-auto" max-width="344"
+                          <v-card class="ma-2 pa-2"
                               v-bind="props">
-                              <v-img :src="portfoli.src" height="200px" cover> </v-img>
+                              <v-img src="/assets/images/portfolio/Seo1.jpg" height="200px" width="300px" cover> </v-img>
 
 
                               <v-card-title class="pt-4 pb-2">
-                                  {{ portfoli . title }}
+                                SEO Project
                               </v-card-title>
 
                               <v-card-subtitle class="pb-6">
-                                  {{ portfoli . explain }}
+                                Website
                               </v-card-subtitle>
                               <v-expand-transition>
             <div
@@ -34,7 +35,321 @@
             <v-btn   class="mx-4"
          color="#000"
           icon
-          :href="portfoli . href"
+          href="https://majidakhoulani.github.io/seo_project/"
+         >
+          <v-icon size="24px" color="#fff" >mdi-github</v-icon>
+        </v-btn>
+            </div>
+          </v-expand-transition>
+                          </v-card>
+                          <v-card class="ma-2 pa-2"
+                              v-bind="props">
+                              <v-img src="/assets/images/portfolio/krypto.jpg" height="200px" width="300px" cover> </v-img>
+
+
+                              <v-card-title class="pt-4 pb-2">
+                                krypton Project
+                              </v-card-title>
+
+                              <v-card-subtitle class="pb-6">
+                                Website
+                              </v-card-subtitle>
+                              <v-expand-transition>
+            <div
+              v-if="isHovering"
+              class="d-flex transition-fast-in-fast-out bg-orange v-card--reveal text-h2"
+              style="height: 100%;"
+            >
+            <v-btn   class="mx-4"
+         color="#000"
+          icon
+          href="https://majidakhoulani.github.io/Krypton-Api-Vue/"
+         >
+          <v-icon size="24px" color="#fff" >mdi-github</v-icon>
+        </v-btn>
+            </div>
+          </v-expand-transition>
+                          </v-card>
+                          <v-card class="ma-2 pa-2"
+                              v-bind="props">
+                              <v-img src="/assets/images/portfolio/vpn.jpg"  height="200px" width="300px" cover> </v-img>
+
+
+                              <v-card-title class="pt-4 pb-2">
+                                Bulma Project
+                              </v-card-title>
+
+                              <v-card-subtitle class="pb-6">
+                                  Website
+                              </v-card-subtitle>
+                              <v-expand-transition>
+            <div
+              v-if="isHovering"
+              class="d-flex transition-fast-in-fast-out bg-orange v-card--reveal text-h2"
+              style="height: 100%;"
+            >
+            <v-btn   class="mx-4"
+         color="#000"
+          icon
+          href="https://majidakhoulani.github.io/fresh_bulma_project/"
+         >
+          <v-icon size="24px" color="#fff" >mdi-github</v-icon>
+        </v-btn>
+            </div>
+          </v-expand-transition>
+                          </v-card>
+                          <!-- <v-card class="mx-auto" max-width="344"
+                              v-bind="props">
+                              <v-img src="/assets/images/portfolio/1.jpg" height="200px" cover> </v-img>
+
+
+                              <v-card-title class="pt-4 pb-2">
+                                Threads
+                              </v-card-title>
+
+                              <v-card-subtitle class="pb-6">
+                                 WwbSitw Design
+                              </v-card-subtitle>
+                              <v-expand-transition>
+            <div
+              v-if="isHovering"
+              class="d-flex transition-fast-in-fast-out bg-orange v-card--reveal text-h2"
+              style="height: 100%;"
+            >
+            <v-btn   class="mx-4"
+         color="#000"
+          icon
+          href="#"
+         >
+          <v-icon size="24px" color="#fff" >mdi-github</v-icon>
+        </v-btn>
+            </div>
+          </v-expand-transition>
+                          </v-card>
+                          <v-card class="mx-auto" max-width="344"
+                              v-bind="props">
+                              <v-img src="/assets/images/portfolio/2.jpg" height="200px" cover> </v-img>
+
+
+                              <v-card-title class="pt-4 pb-2">
+                                Explore
+                              </v-card-title>
+
+                              <v-card-subtitle class="pb-6">
+                                Illustration
+                              </v-card-subtitle>
+                              <v-expand-transition>
+            <div
+              v-if="isHovering"
+              class="d-flex transition-fast-in-fast-out bg-orange v-card--reveal text-h2"
+              style="height: 100%;"
+            >
+            <v-btn   class="mx-4"
+         color="#000"
+          icon
+          href="#"
+         >
+          <v-icon size="24px" color="#fff" >mdi-github</v-icon>
+        </v-btn>
+            </div>
+          </v-expand-transition>
+                          </v-card>
+                          <v-card class="mx-auto" max-width="344"
+                              v-bind="props">
+                              <v-img src="/assets/images/portfolio/3.jpg" height="200px" cover> </v-img>
+
+
+                              <v-card-title class="pt-4 pb-2">
+                                Finish
+                              </v-card-title>
+
+                              <v-card-subtitle class="pb-6">
+                                Graphic Design
+                              </v-card-subtitle>
+                              <v-expand-transition>
+            <div
+              v-if="isHovering"
+              class="d-flex transition-fast-in-fast-out bg-orange v-card--reveal text-h2"
+              style="height: 100%;"
+            >
+            <v-btn   class="mx-4"
+         color="#000"
+          icon
+          href="#"
+         >
+          <v-icon size="24px" color="#fff" >mdi-github</v-icon>
+        </v-btn>
+            </div>
+          </v-expand-transition>
+                          </v-card> -->
+                        </v-hover>
+                  </v-col>
+                  <v-col  cols="12"  class="d-flex  mb-8 justify-space-around"
+                      >
+                      <v-hover v-slot="{ isHovering, props }">
+                          <!-- <v-card class="mx-auto" max-width="344"
+                              v-bind="props">
+                              <v-img src="/assets/images/portfolio/Seo1.jpg" height="200px" cover> </v-img>
+
+
+                              <v-card-title class="pt-4 pb-2">
+                                SEO Project
+                              </v-card-title>
+
+                              <v-card-subtitle class="pb-6">
+                                Website
+                              </v-card-subtitle>
+                              <v-expand-transition>
+            <div
+              v-if="isHovering"
+              class="d-flex transition-fast-in-fast-out bg-orange v-card--reveal text-h2"
+              style="height: 100%;"
+            >
+            <v-btn   class="mx-4"
+         color="#000"
+          icon
+          href="https://majidakhoulani.github.io/seo_project/"
+         >
+          <v-icon size="24px" color="#fff" >mdi-github</v-icon>
+        </v-btn>
+            </div>
+          </v-expand-transition>
+                          </v-card>
+                          <v-card class="mx-auto" max-width="344"
+                              v-bind="props">
+                              <v-img src="/assets/images/portfolio/krypto.jpg" height="200px" cover> </v-img>
+
+
+                              <v-card-title class="pt-4 pb-2">
+                                krypton Project
+                              </v-card-title>
+
+                              <v-card-subtitle class="pb-6">
+                                Website
+                              </v-card-subtitle>
+                              <v-expand-transition>
+            <div
+              v-if="isHovering"
+              class="d-flex transition-fast-in-fast-out bg-orange v-card--reveal text-h2"
+              style="height: 100%;"
+            >
+            <v-btn   class="mx-4"
+         color="#000"
+          icon
+          href="https://majidakhoulani.github.io/Krypton-Api-Vue/"
+         >
+          <v-icon size="24px" color="#fff" >mdi-github</v-icon>
+        </v-btn>
+            </div>
+          </v-expand-transition>
+                          </v-card>
+                          <v-card class="mx-auto" max-width="344"
+                              v-bind="props">
+                              <v-img src="/assets/images/portfolio/vpn.jpg" height="200px" cover> </v-img>
+
+
+                              <v-card-title class="pt-4 pb-2">
+                                Bulma Project
+                              </v-card-title>
+
+                              <v-card-subtitle class="pb-6">
+                                  Website
+                              </v-card-subtitle>
+                              <v-expand-transition>
+            <div
+              v-if="isHovering"
+              class="d-flex transition-fast-in-fast-out bg-orange v-card--reveal text-h2"
+              style="height: 100%;"
+            >
+            <v-btn   class="mx-4"
+         color="#000"
+          icon
+          href="https://majidakhoulani.github.io/fresh_bulma_project/"
+         >
+          <v-icon size="24px" color="#fff" >mdi-github</v-icon>
+        </v-btn>
+            </div>
+          </v-expand-transition>
+                          </v-card> -->
+                          <v-card class="ma-2 pa-2"
+                              v-bind="props">
+                              <v-img src="/assets/images/portfolio/1.jpg" height="200px" width="300px" cover> </v-img>
+
+
+                              <v-card-title class="pt-4 pb-2">
+                                Threads
+                              </v-card-title>
+
+                              <v-card-subtitle class="pb-6">
+                                 WwbSitw Design
+                              </v-card-subtitle>
+                              <v-expand-transition>
+            <div
+              v-if="isHovering"
+              class="d-flex transition-fast-in-fast-out bg-orange v-card--reveal text-h2"
+              style="height: 100%;"
+            >
+            <v-btn   class="mx-4"
+         color="#000"
+          icon
+          href="#"
+         >
+          <v-icon size="24px" color="#fff" >mdi-github</v-icon>
+        </v-btn>
+            </div>
+          </v-expand-transition>
+                          </v-card>
+                          <v-card class="ma-2 pa-2"
+                              v-bind="props">
+                              <v-img src="/assets/images/portfolio/2.jpg" height="200px" width="300px" cover> </v-img>
+
+
+                              <v-card-title class="pt-4 pb-2">
+                                Explore
+                              </v-card-title>
+
+                              <v-card-subtitle class="pb-6">
+                                Illustration
+                              </v-card-subtitle>
+                              <v-expand-transition>
+            <div
+              v-if="isHovering"
+              class="d-flex transition-fast-in-fast-out bg-orange v-card--reveal text-h2"
+              style="height: 100%;"
+            >
+            <v-btn   class="mx-4"
+         color="#000"
+          icon
+          href="#"
+         >
+          <v-icon size="24px" color="#fff" >mdi-github</v-icon>
+        </v-btn>
+            </div>
+          </v-expand-transition>
+                          </v-card>
+                          <!-- class="mx-auto" max-width="344" -->
+                          <v-card  class="ma-2 pa-2"
+                              v-bind="props">
+                              <v-img src="/assets/images/portfolio/3.jpg" height="200px" width="300px" cover> </v-img>
+
+
+                              <v-card-title class="pt-4 pb-2">
+                                Finish
+                              </v-card-title>
+
+                              <v-card-subtitle class="pb-6">
+                                Graphic Design
+                              </v-card-subtitle>
+                              <v-expand-transition>
+            <div
+              v-if="isHovering"
+              class="d-flex transition-fast-in-fast-out bg-orange v-card--reveal text-h2"
+              style="height: 100%;"
+            >
+            <v-btn   class="mx-4"
+         color="#000"
+          icon
+          href="#"
          >
           <v-icon size="24px" color="#fff" >mdi-github</v-icon>
         </v-btn>

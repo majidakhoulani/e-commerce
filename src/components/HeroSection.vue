@@ -1,6 +1,7 @@
 <template>
     <section class="hero-section">
-      <v-parallax dark :src="src">
+      <!-- :src="src" -->
+      <v-parallax dark  src="/assets/images/header-bg.jpg">
 
     <v-row align="center" justify="center" class="hero-section-content">
               <v-col class="text-center" cols="12">
